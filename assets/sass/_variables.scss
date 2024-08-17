@@ -1,0 +1,53 @@
+
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Arabic:var(--text-xl-regular-font-weight),var(--text-md-medium-font-weight),600,var(--text-lg-regular-font-weight),var(--display-xl-medium-font-weight),var(--text-md-regular-font-weight),var(--text-sm-regular-font-weight),var(--display-xs-semibold-font-weight),var(--display-xl-bold-font-weight),400,var(--text-md-semibold-font-weight),var(--text-xs-medium-font-weight),var(--text-lg-bold-font-weight),var(--text-sm-medium-font-weight),var(--text-md-bold-font-weight),var(--text-sm-semibold-font-weight),var(--text-sm-regular-underlined-font-weight),var(--text-xs-regular-font-weight),var(--display-md-bold-font-weight),500,700|Montserrat:400");
+$font-ar: var(--text-lg-regular-font-family);
+$font-en: "IBMPlex Sans";
+ 
+// $font-path-ar: "../fonts/AR/";
+$font-path-en: "../fonts/EN/";
+$img-path: "../images/";
+
+// colors
+$darkGreen: #005D45;
+$lightGreen: #46C752;
+$darkBlue:#32383D;
+$grayColor:#646D75;
+$grayColor2:#727F7C;
+$blue041A2D : #041A2D;
+$backgroundf3f6fb:#f3f6fb;
+$color2:#0B261F;
+$color3:#00846C;
+$color4:#0F3329;
+$color5:#008941;
+$color6:#96A78C;
+
+$theme-colors: (
+  // "primary": $primary-color,
+  // "warning": $orange-color,
+  // "success": $green-color,
+  // "gray": $gray-color,
+  // "red": $red-color
+);
+
+// font weight
+$w-thin: 100; // (Hairline)
+$w-extra-light: 200; // (Ultra Light)
+$w-light: 300;
+$w-normal: 400; // (Regular)
+$w-medium: 500;
+$w-semi-bold: 600; // (Semi Bold)
+$w-bold: 600;
+$w-extra-bold: 800; // (Ultra Bold)
+$w-black: 900; //(Heavy)
+
+
+
+//more 
+
+$raduis-normal : 8px;
+
+// - ---------------
+
+
+
+

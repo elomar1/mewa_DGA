@@ -1,0 +1,92 @@
+
+/* ---- AR ----- */
+@media(min-width: 1200px) {
+    .menuBg .navbarCustom .nav-item .nav-link {
+        font-size: 18px !important;
+    }
+    .searchBNT button{
+        min-width: 4em;
+    }
+
+}
+
+@media(min-width:1600px) {
+    html {
+        /* font-size: 135%; */
+        font-size: 21px;
+    }
+
+    body .orChartNew .level3 .AgencyCard.borderBottom:nth-of-type(2) .borderBOT {
+        margin-left: 6px;
+    }
+
+    body .orChartNew.newLastChart .level3 .AgencyCard.borderBottom:nth-of-type(2) .borderBOT {
+        margin-left: 0;
+    }
+
+    body .or-chart-col7 .wekala-chart .level-one::before {
+        width: 1224px;
+    }
+}
+
+@media(max-width:1600px) {
+    html {
+        /* font-size: 125%; */
+        font-size: 18px;
+    }
+
+    .newLastChart .levelBetw34 .right {
+        -webkit-transform: translate(-11px, -51px);
+        transform: translate(-11px, -51px);
+    }
+
+    body .orChartNew .level3 .AgencyCard.borderBottom:nth-of-type(2) .borderBOT {
+        margin-left: -8px;
+    }
+
+    body .newLastChart .levelBetw34 .adminHeadCard::after {
+        width: 35px;
+        left: -40px;
+    }
+
+    body .orChartNew.newLastChart .level3 .AgencyCard.borderBottom:nth-of-type(1) .borderBOT {
+        margin-left: -11px;
+    }
+
+    body .orChartNew.newLastChart .level3 .AgencyCard.borderBottom:nth-of-type(2) .borderBOT {
+        margin-left: 13px;
+    }
+
+    body .or-chart-col7 .wekala-chart .level-one::before {
+        width: 1234px;
+    }
+}
+
+.newSection .boxNews .newsTxt .titleNews {
+    line-height: 37px;
+}
+
+.eventsSection .patternBox .boxTxtPT .locationDate .dateBox span {
+    line-height: 20px;
+}
+
+[dir="rtl"] .trans-card .content-box .card-title {
+    padding-inline-end: 0;
+}
+
+[dir="ltr"] .trans-card .content-box .card-title {
+    padding-inline-start: 0;
+}
+
+body .orChartNew .level4 .adminHeadCard, body .orChartNew .level4 .adminCard {
+    width: 215px;
+    line-height: 1.2;
+}
+
+.or-chart .Dfont {
+    font-size: 17px;
+}
+
+.stats-inner p {
+    font-size: 1rem;
+}

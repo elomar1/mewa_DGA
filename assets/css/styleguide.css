@@ -1,0 +1,304 @@
+:root {
+  --text-md-medium-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --text-md-medium-font-weight: 500;
+  --text-md-medium-font-size: 16px;
+  --text-md-medium-letter-spacing: 0px;
+  --text-md-medium-line-height: 24px;
+  --text-md-medium-font-style: normal;
+  --text-sm-regular-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --text-sm-regular-font-weight: 400;
+  --text-sm-regular-font-size: 14px;
+  --text-sm-regular-letter-spacing: 0px;
+  --text-sm-regular-line-height: 20px;
+  --text-sm-regular-font-style: normal;
+  --text-sm-regular-underlined-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --text-sm-regular-underlined-font-weight: 400;
+  --text-sm-regular-underlined-font-size: 14px;
+  --text-sm-regular-underlined-letter-spacing: 0px;
+  --text-sm-regular-underlined-line-height: 20px;
+  --text-sm-regular-underlined-font-style: normal;
+  --text-sm-semibold-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --text-sm-semibold-font-weight: 600;
+  --text-sm-semibold-font-size: 14px;
+  --text-sm-semibold-letter-spacing: 0px;
+  --text-sm-semibold-line-height: 20px;
+  --text-sm-semibold-font-style: normal;
+  --text-xs-regular-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --text-xs-regular-font-weight: 400;
+  --text-xs-regular-font-size: 12px;
+  --text-xs-regular-letter-spacing: 0px;
+  --text-xs-regular-line-height: normal;
+  --text-xs-regular-font-style: normal;
+  --display-md-bold-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --display-md-bold-font-weight: 700;
+  --display-md-bold-font-size: 36px;
+  --display-md-bold-letter-spacing: -0.72px;
+  --display-md-bold-line-height: 44px;
+  --display-md-bold-font-style: normal;
+  --text-lg-regular-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --text-lg-regular-font-weight: 400;
+  --text-lg-regular-font-size: 18px;
+  --text-lg-regular-letter-spacing: 0px;
+  --text-lg-regular-line-height: 28px;
+  --text-lg-regular-font-style: normal;
+  --text-xl-regular-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --text-xl-regular-font-weight: 400;
+  --text-xl-regular-font-size: 20px;
+  --text-xl-regular-letter-spacing: 0px;
+  --text-xl-regular-line-height: 30px;
+  --text-xl-regular-font-style: normal;
+  --text-lg-bold-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --text-lg-bold-font-weight: 700;
+  --text-lg-bold-font-size: 18px;
+  --text-lg-bold-letter-spacing: 0px;
+  --text-lg-bold-line-height: 28px;
+  --text-lg-bold-font-style: normal;
+  --text-md-regular-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --text-md-regular-font-weight: 400;
+  --text-md-regular-font-size: 16px;
+  --text-md-regular-letter-spacing: 0px;
+  --text-md-regular-line-height: 24px;
+  --text-md-regular-font-style: normal;
+  --text-md-semibold-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --text-md-semibold-font-weight: 600;
+  --text-md-semibold-font-size: 16px;
+  --text-md-semibold-letter-spacing: 0px;
+  --text-md-semibold-line-height: 24px;
+  --text-md-semibold-font-style: normal;
+  --text-md-bold-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --text-md-bold-font-weight: 700;
+  --text-md-bold-font-size: 16px;
+  --text-md-bold-letter-spacing: 0px;
+  --text-md-bold-line-height: 24px;
+  --text-md-bold-font-style: normal;
+  --display-xs-semibold-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --display-xs-semibold-font-weight: 600;
+  --display-xs-semibold-font-size: 24px;
+  --display-xs-semibold-letter-spacing: 0px;
+  --display-xs-semibold-line-height: 32px;
+  --display-xs-semibold-font-style: normal;
+  --display-xl-bold-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --display-xl-bold-font-weight: 700;
+  --display-xl-bold-font-size: 60px;
+  --display-xl-bold-letter-spacing: -1.2px;
+  --display-xl-bold-line-height: 72px;
+  --display-xl-bold-font-style: normal;
+  --text-sm-medium-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --text-sm-medium-font-weight: 500;
+  --text-sm-medium-font-size: 14px;
+  --text-sm-medium-letter-spacing: 0px;
+  --text-sm-medium-line-height: 20px;
+  --text-sm-medium-font-style: normal;
+  --display-xl-medium-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --display-xl-medium-font-weight: 500;
+  --display-xl-medium-font-size: 60px;
+  --display-xl-medium-letter-spacing: -1.2px;
+  --display-xl-medium-line-height: 72px;
+  --display-xl-medium-font-style: normal;
+  --text-xs-medium-font-family: "IBM Plex Sans Arabic", Helvetica;
+  --text-xs-medium-font-weight: 500;
+  --text-xs-medium-font-size: 12px;
+  --text-xs-medium-letter-spacing: 0px;
+  --text-xs-medium-line-height: 18px;
+  --text-xs-medium-font-style: normal;
+  --shadows-shadow-md: 0px 2px 4px -2px rgba(16, 24, 40, 0.06), 0px 4px 8px -2px rgba(16, 24, 40, 0.1);
+  --themes-background-background-primary-25: var(--primitives-colors-primary-SA-flag-25);
+  --themes-text-text-oncolor-primary: var(--primitives-colors-base-white);
+  --themes-link-link-oncolor: var(--primitives-colors-base-white);
+  --themes-text-text-default: var(--primitives-colors-base-black);
+  --themes-text-text-secondary-paragraph: var(--primitives-colors-neutral-500);
+  --themes-text-text-primary: var(--primitives-colors-primary-SA-flag-600-primary);
+  --themes-text-text-primary-paragraph: var(--primitives-colors-neutral-700);
+  --themes-background-background-neutral-50: var(--primitives-colors-neutral-50);
+  --themes-background-background-primary-400: var(--primitives-colors-primary-SA-flag-400);
+  --themes-background-background-white: var(--primitives-colors-base-white);
+  --themes-icon-bg-icon-brand-light: var(--primitives-colors-primary-SA-flag-50);
+  --themes-border-border-oncolor-transparent-30: var(--primitives-colors-alpha-alpha-white-30);
+  --themes-border-border-primary: var(--primitives-colors-primary-SA-flag-600-primary);
+  --themes-alpha-alpha-primary-10: rgba(27, 131, 84, 0.1);
+  --themes-button-button-background-primary-default: var(--primitives-colors-primary-SA-flag-600-primary);
+  --themes-button-button-background-neutral-default: var(--primitives-colors-neutral-100);
+  --themes-border-border-white: var(--primitives-colors-base-white);
+  --themes-button-button-background-neutral-pressed: var(--primitives-colors-neutral-200);
+  --themes-background-background-card: var(--primitives-colors-base-white);
+  --themes-background-background-primary: var(--primitives-colors-primary-SA-flag-600-primary);
+  --themes-alpha-alpha-white-20: var(--primitives-colors-alpha-alpha-white-20);
+  --themes-border-border-neutral-primary: var(--primitives-colors-neutral-300);
+  --themes-border-border-neutral-secondary: var(--primitives-colors-neutral-200);
+  --themes-background-background-SA-flag: var(--primitives-colors-green-900);
+  --themes-link-link-primary-hovered: var(--primitives-colors-primary-SA-flag-400);
+  --themes-background-background-neutral-400: var(--primitives-colors-neutral-400);
+  --themes-button-button-background-neutral-hovered: var(--primitives-colors-neutral-100);
+  --themes-button-button-background-black-default: var(--primitives-colors-neutral-950);
+  --themes-button-button-background-primary-hovered: var(--primitives-colors-primary-SA-flag-700);
+  --themes-button-button-background-black-hovered: var(--primitives-colors-neutral-800);
+  --themes-border-border-black: var(--primitives-colors-base-black);
+  --themes-text-text-display: var(--primitives-colors-neutral-800);
+  --themes-tag-tag-text-neutral: var(--primitives-colors-neutral-800);
+  --themes-tag-tag-background-neutral-light: var(--primitives-colors-neutral-50);
+  --themes-background-background-primary-50: var(--primitives-colors-primary-SA-flag-50);
+  --themes-link-link-oncolor-hovered: var(--primitives-colors-alpha-alpha-white-80);
+  --primitives-colors-primary-SA-flag-25: rgba(247, 253, 249, 1);
+  --primitives-colors-base-white: rgba(255, 255, 255, 1);
+  --primitives-colors-base-black: rgba(22, 22, 22, 1);
+  --primitives-colors-neutral-500: rgba(108, 115, 127, 1);
+  --primitives-colors-primary-SA-flag-600-primary: rgba(27, 131, 84, 1);
+  --primitives-colors-neutral-700: rgba(56, 66, 80, 1);
+  --primitives-spacing-1-4px: 4px;
+  --primitives-colors-neutral-50: rgba(249, 250, 251, 1);
+  --primitives-colors-primary-SA-flag-400: rgba(84, 192, 138, 1);
+  --primitives-spacing-4-16px: 16px;
+  --primitives-spacing-2-8px-duplicate: 8px;
+  --primitives-colors-primary-SA-flag-950: rgba(9, 42, 30, 1);
+  --primitives-spacing-0-0px: 0px;
+  --primitives-spacing-3-12px: 12px;
+  --primitives-colors-primary-SA-flag-50: rgba(243, 252, 246, 1);
+  --primitives-colors-alpha-alpha-white-30: rgba(255, 255, 255, 0.3);
+  --primitives-spacing-6-24px: 24px;
+  --primitives-colors-neutral-200: rgba(229, 231, 235, 1);
+  --primitives-colors-neutral-100: rgba(243, 244, 246, 1);
+  --primitives-colors-neutral-950: rgba(13, 18, 28, 1);
+  --primitives-radius-radius-4: 4px;
+  --primitives-spacing-5-20px: 20px;
+  --primitives-colors-neutral-900: rgba(17, 25, 39, 1);
+  --primitives-colors-alpha-alpha-white-20: rgba(255, 255, 255, 0.2);
+  --primitives-colors-neutral-300: rgba(210, 214, 219, 1);
+  --primitives-colors-neutral-800: rgba(31, 42, 55, 1);
+  --primitives-colors-neutral-600: rgba(77, 87, 97, 1);
+  --primitives-colors-alpha-alpha-black-20: rgba(22, 22, 22, 0.2);
+  --primitives-colors-green-900: rgba(7, 77, 49, 1);
+  --primitives-colors-neutral-400: rgba(157, 164, 174, 1);
+  --primitives-colors-primary-SA-flag-700: rgba(22, 106, 69, 1);
+  --primitives-colors-alpha-alpha-600-primary-10: rgba(27, 131, 84, 0.1);
+  --primitives-colors-alpha-alpha-white-80: rgba(255, 255, 255, 0.8);
+  --spacing-link-link-sm-gap: var(--primitives-spacing-1-4px);
+  --spacing-button-buttons-md-gap: var(--primitives-spacing-1-4px);
+  --spacing-button-buttons-lg-gap: var(--primitives-spacing-1-4px);
+  --spacing-button-buttons-lg-padding: var(--primitives-spacing-4-16px);
+  --spacing-global-spacing-none: var(--primitives-spacing-0-0px);
+  --spacing-button-buttons-md-padding: var(--primitives-spacing-3-12px);
+  --spacing-model-modal-padding: var(--primitives-spacing-6-24px);
+  --spacing-card-card-sm-gap: var(--primitives-spacing-6-24px);
+  --spacing-tab-tab-button-gap: var(--primitives-spacing-1-4px);
+  --spacing-tab-horizontal-tab-md-button-h-padding: var(--primitives-spacing-4-16px);
+  --spacing-card-card-lg-gap: var(--primitives-spacing-6-24px);
+  --spacing-global-spacing-xl: var(--primitives-spacing-4-16px);
+  --spacing-global-spacing-lg: var(--primitives-spacing-3-12px);
+  --spacing-tab-vertical-tab-md-button-h-padding: var(--primitives-spacing-3-12px);
+  --spacing-global-spacing-xs: var(--primitives-spacing-1-4px);
+  --radius-radius-full: 9999px;
+  --radius-radius-full-duplicate: 9999px;
+  --radius-radius-sm: 4px;
+  --radius-radius-lg: 16px;
+  --spacing-spacing-md: var(--primitives-spacing-2-8px);
+  --spacing-spacing-xs: var(--primitives-spacing-1-4px-duplicate);
+  --spacing-spacing-xl: var(--primitives-spacing-4-16px-duplicate);
+  --spacing-spacing-md-duplicate: var(--primitives-spacing-2-8px-duplicate);
+  --spacing-spacing-3xl: var(--primitives-spacing-6-24px-duplicate);
+  --spacing-spacing-4xl: var(--primitives-spacing-8-32px);
+  --spacing-spacing-5xl: var(--primitives-spacing-10-40px);
+  --primitives-spacing-2-8px: 8px;
+  --primitives-spacing-1-4px-duplicate: 4px;
+  --primitives-spacing-4-16px-duplicate: 16px;
+  --primitives-spacing-6-24px-duplicate: 24px;
+  --primitives-spacing-8-32px: 32px;
+  --primitives-spacing-10-40px: 40px;
+  --primitives-colors-gray-neutral-950: rgba(13, 18, 28, 1);
+  --radius-radius-radius-sm: var(--primitives-radius-radius-4);
+  --2-radius-radius-none: 0px;
+  --2-radius-radius-md: 8px;
+  --1-theme-text-text-primary-duplicate: var(--primitives-colors-gray-neutral-950);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-themes-mode="light">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-themes-mode="light"] {
+  --themes-background-background-primary-25: var(--primitives-colors-primary-SA-flag-25);
+  --themes-text-text-default: var(--primitives-colors-base-black);
+  --themes-text-text-secondary-paragraph: var(--primitives-colors-neutral-500);
+  --themes-text-text-primary: var(--primitives-colors-primary-SA-flag-600-primary);
+  --themes-text-text-primary-paragraph: var(--primitives-colors-neutral-700);
+  --themes-background-background-neutral-50: var(--primitives-colors-neutral-50);
+  --themes-background-background-white: var(--primitives-colors-base-white);
+  --themes-icon-bg-icon-brand-light: var(--primitives-colors-primary-SA-flag-50);
+  --themes-alpha-alpha-primary-10: rgba(27, 131, 84, 0.1);
+  --themes-button-button-background-neutral-default: var(--primitives-colors-neutral-100);
+  --themes-border-border-white: var(--primitives-colors-base-white);
+  --themes-button-button-background-neutral-pressed: var(--primitives-colors-neutral-200);
+  --themes-background-background-card: var(--primitives-colors-base-white);
+  --themes-alpha-alpha-white-20: var(--primitives-colors-alpha-alpha-white-20);
+  --themes-border-border-neutral-primary: var(--primitives-colors-neutral-300);
+  --themes-border-border-neutral-secondary: var(--primitives-colors-neutral-200);
+  --themes-background-background-SA-flag: var(--primitives-colors-green-900);
+  --themes-button-button-background-neutral-hovered: var(--primitives-colors-neutral-100);
+  --themes-border-border-black: var(--primitives-colors-base-black);
+  --themes-text-text-display: var(--primitives-colors-neutral-800);
+  --themes-tag-tag-text-neutral: var(--primitives-colors-neutral-800);
+  --themes-tag-tag-background-neutral-light: var(--primitives-colors-neutral-50);
+  --themes-background-background-primary-50: var(--primitives-colors-primary-SA-flag-50);
+}
+
+[data-themes-mode="dark"] {
+  --themes-background-background-primary-25: var(--primitives-colors-primary-SA-flag-950);
+  --themes-text-text-default: var(--primitives-colors-base-white);
+  --themes-text-text-secondary-paragraph: var(--primitives-colors-neutral-200);
+  --themes-text-text-primary: var(--primitives-colors-primary-SA-flag-400);
+  --themes-text-text-primary-paragraph: var(--primitives-colors-neutral-100);
+  --themes-background-background-neutral-50: var(--primitives-colors-neutral-900);
+  --themes-background-background-white: var(--primitives-colors-neutral-950);
+  --themes-icon-bg-icon-brand-light: var(--themes-alpha-alpha-primary-10);
+  --themes-alpha-alpha-primary-10: rgba(22, 106, 69, 0.1);
+  --themes-button-button-background-neutral-default: var(--primitives-colors-neutral-800);
+  --themes-border-border-white: var(--primitives-colors-base-black);
+  --themes-button-button-background-neutral-pressed: var(--primitives-colors-neutral-600);
+  --themes-background-background-card: var(--primitives-colors-neutral-800);
+  --themes-alpha-alpha-white-20: var(--primitives-colors-alpha-alpha-black-20);
+  --themes-border-border-neutral-primary: var(--primitives-colors-neutral-500);
+  --themes-border-border-neutral-secondary: var(--primitives-colors-neutral-700);
+  --themes-background-background-SA-flag: var(--primitives-colors-primary-SA-flag-600-primary);
+  --themes-button-button-background-neutral-hovered: var(--primitives-colors-neutral-700);
+  --themes-border-border-black: var(--primitives-colors-base-white);
+  --themes-text-text-display: var(--primitives-colors-neutral-50);
+  --themes-tag-tag-text-neutral: var(--primitives-colors-neutral-100);
+  --themes-tag-tag-background-neutral-light: var(--primitives-colors-neutral-800);
+  --themes-background-background-primary-50: var(--primitives-colors-alpha-alpha-600-primary-10);
+}
+
+[data-spacing-mode="desktop"] {
+  --spacing-model-modal-padding: var(--primitives-spacing-6-24px);
+  --spacing-card-card-sm-gap: var(--primitives-spacing-6-24px);
+  --spacing-tab-horizontal-tab-md-button-h-padding: var(--primitives-spacing-4-16px);
+  --spacing-card-card-lg-gap: var(--primitives-spacing-6-24px);
+}
+
+[data-spacing-mode="tablet"] {
+  --spacing-model-modal-padding: var(--primitives-spacing-6-24px);
+  --spacing-card-card-sm-gap: var(--primitives-spacing-5-20px);
+  --spacing-tab-horizontal-tab-md-button-h-padding: var(--primitives-spacing-4-16px);
+  --spacing-card-card-lg-gap: var(--primitives-spacing-6-24px);
+}
+
+[data-spacing-mode="mobile"] {
+  --spacing-model-modal-padding: var(--primitives-spacing-4-16px);
+  --spacing-card-card-sm-gap: var(--primitives-spacing-3-12px);
+  --spacing-tab-horizontal-tab-md-button-h-padding: var(--primitives-spacing-3-12px);
+  --spacing-card-card-lg-gap: var(--primitives-spacing-4-16px);
+}
+
+[data-primitives-mode="light"] {
+  --primitives-colors-gray-neutral-950: rgba(13, 18, 28, 1);
+}
+
+[data-primitives-mode="dark"] {
+  --primitives-colors-gray-neutral-950: rgba(252, 252, 253, 1);
+}

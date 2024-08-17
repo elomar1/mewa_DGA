@@ -1,0 +1,53 @@
+
+//Import Arabic Fonts -- Lina Sans
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Montserrat:wght@400&display=swap');
+
+// @font-face {
+//    font-family: var(--text-lg-regular-font-family);
+//     src: url($font-path-ar + "Lina sans Regular.otf");
+//     // font-weight: $w-normal;
+// }
+
+// @font-face {
+//    font-family: var(--text-lg-regular-font-family);
+//     src: url($font-path-ar + "Lina sans Light.otf");
+//     font-weight: $w-normal;
+// }
+
+// @font-face {
+//    font-family: var(--text-lg-regular-font-family);
+//     src: url($font-path-ar + "Lina sans Medium.otf");
+//     font-weight: $w-medium;
+// }
+
+// @font-face {
+//    font-family: var(--text-lg-regular-font-family);
+//     src: url($font-path-ar + "Lina sans Bold.otf");
+//     font-weight: $w-bold;
+// }
+
+//Import English Fonts -- IBMPlex Sans
+
+@font-face {
+    font-family: "IBMPlex Sans";
+    src: url($font-path-en + "IBMPlexSans-Regular.ttf");
+    // font-weight: $w-normal;
+}
+
+@font-face {
+    font-family: "IBMPlex Sans";
+    src: url($font-path-en + "IBMPlexSans-Light.ttf");
+    font-weight: $w-normal;
+}
+
+@font-face {
+    font-family: "IBMPlex Sans";
+    src: url($font-path-en + "IBMPlexSans-Medium.ttf");
+    font-weight: $w-medium;
+}
+
+@font-face {
+    font-family: "IBMPlex Sans";
+    src: url($font-path-en + "IBMPlexSans-Bold.ttf");
+    font-weight: $w-bold;
+}
