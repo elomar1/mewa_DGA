@@ -208,6 +208,16 @@
   --2-radius-radius-none: 0px;
   --2-radius-radius-md: 8px;
   --1-theme-text-text-primary-duplicate: var(--primitives-colors-gray-neutral-950);
+
+
+
+
+
+
+
+
+  /* added to inner */
+  --background-neutral-100: #F3F4F6
 }
 
 /*
