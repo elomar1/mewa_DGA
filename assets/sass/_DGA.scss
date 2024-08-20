@@ -1034,7 +1034,14 @@ html body{
 
 
   .inner .partners-list{
-
+	.main-par{
+		font-weight: var(--text-md-semibold-font-weight);
+		font-size: var(--text-md-semibold-font-size);
+		line-height: var(--text-md-semibold-line-height);
+		color: #000;
+		margin-bottom: 95px;
+		text-align: center;
+	}
 	  .partners-card{
 		// height: 100%;
 		.Dtxt{

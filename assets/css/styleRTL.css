@@ -14645,6 +14645,15 @@ html body {
   padding: 6px;
 }
 
+.inner .partners-list .main-par {
+  font-weight: var(--text-md-semibold-font-weight);
+  font-size: var(--text-md-semibold-font-size);
+  line-height: var(--text-md-semibold-line-height);
+  color: #000;
+  margin-bottom: 95px;
+  text-align: center;
+}
+
 .inner .partners-list .partners-card .Dtxt {
   margin-bottom: var(--primitives-spacing-6-24px);
 }
