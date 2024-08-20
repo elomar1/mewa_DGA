@@ -1089,3 +1089,99 @@ html body{
 		}
 	  }
   }
+
+
+.branches{
+	
+}
+
+.info-box{
+	padding: var(--notification-padding) var(--notification-h-padding);
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: 1px solid var(--themes-border-border-neutral-primary);
+	border-right: 8px solid var(--background-warning);
+	border-radius: var(--radius-radius-md);
+	gap: var(--notification-gap);
+	.icon-box{
+		width: 40px;
+		height: 40px;
+		padding: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: var(--Bg-icon-warning-light);
+		border-radius: var(--radius-radius-full);
+		img{}
+	}
+	.details-box{
+		p{
+			font-weight: var(--text-md-semibold-font-weight);
+			font-size: var(--text-md-semibold-font-size);
+			line-height: var(--text-md-semibold-line-height);
+			color: var(--themes-text-text-display);
+			margin-bottom: 0;
+		}
+	}
+}
+
+  .customAccordion {
+	margin-top: 20px;
+	.accordion-button:focus {
+	  box-shadow: unset;
+	}
+	ul {
+	  list-style: disc;
+	  list-style-position: unset;
+	  padding: var(--spacing-spacing-md) var(--spacing-spacing-xl);
+	  gap: var(--spacing-spacing-md);
+	  display: flex;
+	  flex-direction: column;
+	  align-items: flex-start;
+	  &.num {
+		list-style: decimal;
+	  }
+	  li {
+		margin-bottom: 5px;
+	  }
+	}
+	.p18 {
+	  font-family: var(--text-md-regular-font-family);
+	  font-weight: var(--text-md-regular-font-weight);
+	  color: #384250;
+	  font-size: var(--text-md-regular-font-size);
+	  letter-spacing: var(--text-md-regular-letter-spacing);
+	  line-height: var(--text-md-regular-line-height);
+	  font-style: var(--text-md-regular-font-style);
+	  width: 97%;
+	}
+	.accordion-item {
+	  border: unset;
+	  .accordion-button {
+		box-shadow: unset;
+		gap: var(--spacing-global-spacing-xl);
+		padding: var(--spacing-global-spacing-xl);
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-color: var(--themes-border-border-neutral-primary);
+		background: #fff;
+		font-weight: var(--text-md-semibold-font-weight);
+		font-size: var(--text-md-semibold-font-size);
+		line-height: var(--text-md-semibold-line-height);
+		color: var(--themes-text-text-default);
+		direction: rtl;
+		position: relative;
+		&::after {
+		  position: absolute;
+		  left: 23px;
+		  top: 23px;
+		}
+
+		&::after{
+			background-image: url(../images/mewa-DGA/shared/arrow-down.svg);
+		}
+	  }
+	}
+  }

@@ -217,7 +217,13 @@
 
 
   /* added to inner */
-  --background-neutral-100: #F3F4F6
+  --background-neutral-100: #F3F4F6;
+  --notification-h-padding : 24px;
+  --notification-padding:16px;
+  --notification-gap:12px;
+  --background-warning:#DC6803;
+  --Bg-icon-warning-light:#FFFAEB;
+  --radius-radius-md: 8px;
 }
 
 /*
