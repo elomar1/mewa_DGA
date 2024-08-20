@@ -14401,6 +14401,7 @@ html body {
 .breadcrumbSec .font35pxBold {
   text-align: right;
   padding-top: 10px;
+  color: var(--themes-text-text-default);
 }
 
 .breadcrumbSec .patternIcon::after, .breadcrumbSec .menuBg .navbarCustom .colMenu h4::after, .menuBg .navbarCustom .colMenu .breadcrumbSec h4::after, .breadcrumbSec .servicesBg .sevBob:hover h3::after, .servicesBg .sevBob:hover .breadcrumbSec h3::after {
@@ -14584,7 +14585,14 @@ html body {
 }
 
 .inner .ministry-card {
-  height: 100%;
+  height: calc(100% - 26px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .inner .ministry-card .Dtxt {
@@ -14617,6 +14625,8 @@ html body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: auto;
+  margin-bottom: 0;
 }
 
 .inner .ministry-card .btns-box .ministry-more {
@@ -14839,6 +14849,97 @@ html body {
 
 .customAccordion .accordion-item .accordion-button::after {
   background-image: url(../images/mewa-DGA/shared/arrow-down.svg);
+}
+
+.content p {
+  font-family: inherit !important;
+}
+
+.competitions .content-box p {
+  font-size: var(--text-md-semibold-font-size);
+  font-weight: var(--text-md-semibold-font-weight);
+  line-height: var(--text-md-semibold-line-height);
+  color: #000;
+}
+
+.customTab-two {
+  gap: var(--spacing-tab-tab-button-gap);
+}
+
+.customTab-two .nav-link {
+  background-color: var(--primitives-colors-base-white) !important;
+  font-size: var(--text-sm-medium-font-size);
+  font-weight: var(--text-sm-medium-font-weight);
+  line-height: var(--text-sm-medium-line-height);
+  color: var(--themes-text-text-primary-paragraph);
+  padding: var(--spacing-tab-horizontal-tab-md-button-h-padding);
+  position: relative;
+  border-radius: var(--radius-radius-sm);
+  margin: 0 !important;
+}
+
+.customTab-two .nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  width: 80%;
+  height: 3px;
+  background-color: var(--themes-border-border-primary);
+  border-radius: var(--radius-radius-full);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.customTab-two .nav-link.active {
+  color: var(--themes-text-text-default);
+  font-weight: var(--text-lg-bold-font-weight);
+}
+
+.customTab-two .nav-link.active::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.content table tbody tr {
+  background-color: var(--primitives-colors-base-white);
+}
+
+.content table tbody tr:first-child {
+  background-color: var(--table-background-header) !important;
+  background: var(--table-background-header) !important;
+  border: 1px solid var(--table-cell-border-color);
+}
+
+.content table tbody tr:first-child td, .content table tbody tr:first-child th {
+  padding: var(--table-cell-v-padding) var(--table-cell-h-padding);
+  min-width: 100px;
+  min-height: 48px;
+  font-size: var(--text-xs-medium-font-size);
+  font-weight: var(--text-xs-medium-font-weight);
+  line-height: var(--text-xs-medium-line-height);
+  color: var(--table-text-head);
+  border: 1px solid var(--table-cell-border-color);
+  text-align: right;
+}
+
+.content table tbody tr:nth-child(odd) {
+  background-color: var(--primitives-colors-base-white);
+}
+
+.content table tbody tr td {
+  padding: var(--table-cell-v-padding) var(--table-cell-h-padding);
+  font-size: var(--text-md-regular-font-size);
+  font-weight: var(--text-md-regular-font-weight);
+  line-height: var(--text-md-regular-line-height);
+  color: var(--table-text-body);
+  text-align: right;
+}
+
+.content table tbody, .content table td, .content table tfoot, .content table th, .content table thead, .content table tr {
+  border: 1px solid var(--table-cell-border-color);
 }
 
 /* ---- AR ----- */

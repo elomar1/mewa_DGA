@@ -224,6 +224,13 @@
   --background-warning:#DC6803;
   --Bg-icon-warning-light:#FFFAEB;
   --radius-radius-md: 8px;
+  --table-text-head: #384250;
+  --table-cell-v-padding:8px;
+  --table-cell-h-padding:16px;
+  --table-cell-border-color:#D2D6DB;
+  --table-background-header:#F9FAFB;
+  --table-text-body:#161616;
+
 }
 
 /*
