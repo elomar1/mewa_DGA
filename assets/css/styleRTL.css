@@ -14151,6 +14151,7 @@ body .content .ms-rtestate-field h2 {
   border-color: var(--themes-border-border-oncolor-transparent-30);
   color: var(--themes-text-text-oncolor-primary);
   margin-bottom: var(--spacing-spacing-md);
+  font-family: var(--text-sm-regular-font-family);
   font-weight: var(--text-md-medium-font-weight);
 }
 
@@ -14580,6 +14581,135 @@ html body {
 
 .main-p2 + .main-p2 {
   margin-top: 17px;
+}
+
+.inner .ministry-card {
+  height: 100%;
+}
+
+.inner .ministry-card .Dtxt {
+  margin-bottom: var(--primitives-spacing-6-24px);
+}
+
+.inner .ministry-card .Dtxt .title {
+  height: auto;
+  margin-bottom: var(--primitives-spacing-2-8px-duplicate);
+  font-weight: var(--text-lg-bold-font-weight);
+}
+
+.inner .ministry-card .Dtxt p {
+  color: var(--themes-text-text-secondary-paragraph);
+  font-size: var(--text-md-medium-font-size);
+  line-height: var(--text-md-medium-line-height);
+}
+
+.inner .ministry-card .btns-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inner .ministry-card .btns-box .ministry-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: var(--spacing-global-spacing-none) var(--spacing-button-buttons-lg-padding);
+  gap: var(--spacing-button-buttons-lg-gap);
+}
+
+.inner .ministry-card .btns-box .ministry-more span {
+  font-size: var(--text-md-medium-font-size);
+  line-height: var(--text-md-medium-line-height);
+  font-weight: var(--text-md-medium-font-weight);
+  color: var(--themes-text-text-default);
+}
+
+.inner .ministry-card .btns-box .ministry-more img {
+  padding: 6px;
+}
+
+.inner .partners-list .partners-card .Dtxt {
+  margin-bottom: var(--primitives-spacing-6-24px);
+}
+
+.inner .partners-list .partners-card .Dtxt .title {
+  height: auto;
+  margin-bottom: var(--primitives-spacing-2-8px-duplicate);
+  font-weight: var(--text-lg-bold-font-weight);
+}
+
+.inner .partners-list .partners-card .Dtxt p {
+  color: var(--themes-text-text-secondary-paragraph);
+  font-size: var(--text-md-medium-font-size);
+  line-height: var(--text-md-medium-line-height);
+}
+
+.inner .partners-list .partners-card .btns-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inner .partners-list .partners-card .btns-box .ministry-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: var(--spacing-global-spacing-none) var(--spacing-button-buttons-lg-padding);
+  gap: var(--spacing-button-buttons-lg-gap);
+  border-radius: var(--radius-radius-sm);
+  border: 1px solid var(--themes-border-border-neutral-primary);
+  height: 40px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.inner .partners-list .partners-card .btns-box .ministry-more span {
+  font-size: var(--text-md-medium-font-size);
+  line-height: var(--text-md-medium-line-height);
+  font-weight: var(--text-md-medium-font-weight);
+  color: var(--themes-text-text-default);
+}
+
+.inner .partners-list .partners-card .btns-box .ministry-more img {
+  padding: 6px;
+}
+
+.inner .partners-list .partners-card .btns-box .ministry-more:hover {
+  background-color: var(--background-neutral-100);
 }
 
 /* ---- AR ----- */
