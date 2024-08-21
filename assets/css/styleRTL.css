@@ -14942,6 +14942,52 @@ html body {
   border: 1px solid var(--table-cell-border-color);
 }
 
+.social-media-2 .socMed-card {
+  padding: 50px 0;
+}
+
+.social-media-2 .socMed-card .socMed-content h2 {
+  color: var(--themes-text-text-primary-paragraph) !important;
+  font-size: var(--display-md-bold-font-size);
+  font-weight: var(--display-md-bold-font-weight);
+  line-height: var(--display-md-bold-line-height);
+  letter-spacing: var(--display-md-bold-letter-spacing);
+  min-height: 74px;
+  margin-bottom: 5px !important;
+}
+
+.social-media-2 .socMed-card .socMed-content p {
+  color: var(--themes-text-text-secondary-paragraph);
+  font-size: var(--text-md-semibold-font-size);
+  font-weight: var(--text-md-semibold-font-weight);
+  line-height: var(--text-md-semibold-line-height);
+}
+
+.social-media-2 .socMed-card .socMed-img {
+  border: 1px solid var(--themes-border-border-neutral-secondary);
+  background-color: var(--themes-background-background-card);
+  border-radius: var(--radius-radius-lg);
+  padding: var(--primitives-spacing-5-20px) var(--primitives-spacing-4-16px);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  max-width: 355px;
+  margin-right: auto;
+  max-height: 220px;
+}
+
+.social-media-2 .socMed-card .socMed-img h3 {
+  display: none;
+}
+
+.social-media-2 .socMed-card.blue-bg {
+  background-color: var(--themes-background-background-neutral-50);
+}
+
+.social-media-2 .socMed-card.blue-bg .socMed-img {
+  margin-right: 0;
+  margin-left: auto;
+}
+
 /* ---- AR ----- */
 @media (min-width: 1200px) {
   .menuBg .navbarCustom .nav-item .nav-link {
