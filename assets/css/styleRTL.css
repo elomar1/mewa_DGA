@@ -14988,6 +14988,176 @@ html body {
   margin-left: auto;
 }
 
+.list-system-cards.list-sysDGA .col-lg-4 {
+  margin-bottom: 27px;
+}
+
+.list-system-cards.list-sysDGA .system-card {
+  padding: var(--primitives-spacing-2-8px) var(--primitives-spacing-2-8px) var(--primitives-spacing-4-16px) var(--primitives-spacing-2-8px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: var(--spacing-card-card-sm-gap);
+  border-radius: var(--radius-radius-lg);
+  background-color: var(--themes-background-background-white);
+  -webkit-box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+          box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+  margin-bottom: 0;
+  height: 100%;
+}
+
+.list-system-cards.list-sysDGA .system-card .img-box {
+  margin: 0;
+}
+
+.list-system-cards.list-sysDGA .system-card .content-box h4 {
+  color: var(--table-text-head);
+  font-size: var(--text-lg-bold-font-size);
+  font-weight: var(--text-lg-bold-font-weight);
+  line-height: var(--text-lg-bold-line-height);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.list-system-cards.list-sysDGA .system-card .sys-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: var(--spacing-global-spacing-xl);
+}
+
+.list-system-cards.list-sysDGA .system-card .sys-btns .sys-share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.list-system-cards.list-sysDGA .system-card .sys-btns .sys-share .share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: var(--spacing-global-spacing-none) var(--spacing-button-buttons-lg-padding);
+  gap: var(--spacing-button-buttons-lg-gap);
+  border-radius: var(--radius-radius-sm);
+  border: 1px solid var(--themes-border-border-neutral-primary);
+  background-color: var(--themes-background-background-white);
+  width: auto;
+  height: 40px;
+  color: var(--themes-text-text-default);
+  font-size: var(--text-md-medium-font-size);
+  font-weight: var(--text-md-medium-font-weight);
+  line-height: var(--text-md-medium-line-height);
+  font-family: inherit;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.list-system-cards.list-sysDGA .system-card .sys-btns .sys-share .share .img-box img {
+  -webkit-filter: none;
+          filter: none;
+  vertical-align: middle;
+}
+
+.list-system-cards.list-sysDGA .system-card .sys-btns .sys-share .share span {
+  color: var(--themes-text-text-default);
+  font-size: var(--text-md-medium-font-size);
+  font-weight: var(--text-md-medium-font-weight);
+  line-height: var(--text-md-medium-line-height);
+  font-family: inherit;
+  margin: 0;
+}
+
+.list-system-cards.list-sysDGA .system-card .sys-btns .sys-share .share:hover {
+  background-color: var(--themes-button-button-background-neutral-default);
+}
+
+.list-system-cards.list-sysDGA .system-card .sys-btns .download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: var(--spacing-global-spacing-none) var(--spacing-button-buttons-lg-padding);
+  gap: var(--spacing-button-buttons-lg-gap);
+  border-radius: var(--radius-radius-sm);
+  background-color: var(--themes-button-button-background-primary-default);
+  height: 40px;
+  color: var(--themes-text-text-oncolor-primary);
+  font-size: var(--text-md-medium-font-size);
+  font-weight: var(--text-md-medium-font-weight);
+  line-height: var(--text-md-medium-line-height);
+  font-family: inherit;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.list-system-cards.list-sysDGA .system-card .sys-btns .download img {
+  margin: 0;
+  -webkit-filter: none !important;
+          filter: none !important;
+}
+
+.list-system-cards.list-sysDGA .system-card .sys-btns .download:hover {
+  background-color: var(--themes-button-button-background-primary-hovered);
+}
+
+.list-system-cards.list-sysDGA .system-card:hover {
+  border-radius: var(--radius-radius-lg);
+  background-color: var(--themes-background-background-white);
+  -webkit-box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+          box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+}
+
+.list-system-cards.list-sysDGA .system-card:hover .content-box h4 {
+  color: var(--table-text-head);
+}
+
+.list-system-cards.list-sysDGA .system-card:hover .sys-btns {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 /* ---- AR ----- */
 @media (min-width: 1200px) {
   .menuBg .navbarCustom .nav-item .nav-link {
