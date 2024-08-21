@@ -15294,6 +15294,14 @@ html body {
   line-height: var(--text-xl-regular-line-height);
 }
 
+.Administration {
+  background-image: url(../images/mewa-DGA/wkala/bg.jpg);
+}
+
+.Administration::after {
+  display: none;
+}
+
 .Administration .main-head-WZ-icon {
   font-size: var(--display-xs-semibold-font-size);
   font-weight: var(--text-md-semibold-font-weight);

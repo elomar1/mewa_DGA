@@ -1566,6 +1566,10 @@ html body{
 }
 
 .Administration{
+	background-image: url(../images/mewa-DGA/wkala/bg.jpg);
+	&::after{
+		display: none;
+	}
 	.main-head-WZ-icon{
 		font-size: var(--display-xs-semibold-font-size);
 		font-weight: var(--text-md-semibold-font-weight);
