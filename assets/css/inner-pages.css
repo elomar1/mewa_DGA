@@ -2575,6 +2575,7 @@ div.question input[type=radio] ~ label:after {
 	  gap: var(--spacing-button-buttons-lg-gap);
 	  border-radius: var(--radius-radius-radius-sm);
 	  overflow: hidden;
+    transform: scaleX(-1);
 }
 
 #lay-internalAgencies .card.card-withIcon .card--icon > img, .card.card-withIcon .card--icon svg {
