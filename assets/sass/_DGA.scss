@@ -152,6 +152,13 @@
 				margin-#{$end-direction}: auto;
 			}
 		}
+		.colMenu {
+			h4{
+				a{
+					font-size: inherit;
+				}
+			}
+		}
 	}
 }
 .MainHeader {
@@ -614,38 +621,45 @@
   
     .FooterLinks {
       h4 {
-        padding: 0px 0px var(--spacing-spacing-md) 0px;
-        border-bottom-width: 1px;
-        border-bottom-style: solid;
-        border-color: var(--themes-border-border-oncolor-transparent-30);
-        color: var(--themes-text-text-oncolor-primary);
-        margin-bottom: var(--spacing-spacing-md);
-		font-family: var(--text-sm-regular-font-family);
-        font-weight: var(--text-md-medium-font-weight);
+        padding: 0px 0px var(--spacing-spacing-md) 0px !important;
+        border-bottom-width: 1px !important;
+        border-bottom-style: solid !important;
+        border-color: var(--themes-border-border-oncolor-transparent-30) !important;
+        color: var(--themes-text-text-oncolor-primary) !important;
+        margin-bottom: var(--spacing-spacing-md) !important;
+		font-family: var(--text-sm-regular-font-family) !important;
+        font-weight: var(--text-md-medium-font-weight) !important;
+		font-size: var(--text-md-medium-font-size) !important;
       }
       ul {
         padding: 0;
         list-style: none;
         li {
-          margin-bottom: var(--spacing-spacing-md);
+          margin-bottom: var(--spacing-spacing-md) !important;
           a {
-            font-size: var(--text-sm-regular-font-size);
-            line-height: var(--text-sm-regular-line-height);
-            font-family: var(--text-sm-regular-font-family);
-            font-weight: var(--text-sm-regular-font-weight);
-            color: var(--themes-link-link-oncolor);
-            letter-spacing: var(--text-sm-regular-letter-spacing);
-            font-style: var(--text-sm-regular-font-style);
+            font-size: var(--text-sm-regular-font-size) !important;
+            line-height: var(--text-sm-regular-line-height) !important;
+            font-family: var(--text-sm-regular-font-family) !important;
+            font-weight: var(--text-sm-regular-font-weight) !important;
+            color: var(--themes-link-link-oncolor) !important;
+            letter-spacing: var(--text-sm-regular-letter-spacing) !important;
+            font-style: var(--text-sm-regular-font-style) !important;
             transition: 0.3s;
             display: flex;
             span {
               padding-#{$start-direction}: 5px;
+			  font-size: var(--text-sm-regular-font-size) !important;
+			  line-height: var(--text-sm-regular-line-height) !important;
+			  font-family: var(--text-sm-regular-font-family) !important;
+			  font-weight: var(--text-sm-regular-font-weight) !important;
+			  color: var(--themes-link-link-oncolor) !important;
+			  letter-spacing: var(--text-sm-regular-letter-spacing) !important;
             }
             &:hover {
-              font-size: var(--text-sm-regular-underlined-font-size);
-              line-height: var(--text-sm-regular-underlined-line-height);
-              text-decoration: underline;
-              color: var(--primitives-colors-alpha-alpha-white-80);
+              font-size: var(--text-sm-regular-underlined-font-size) !important;
+              line-height: var(--text-sm-regular-underlined-line-height) !important;
+              text-decoration: underline !important;
+              color: var(--primitives-colors-alpha-alpha-white-80) !important;
             }
           }
         }
@@ -813,11 +827,18 @@ html body{
 			font-family: var(--text-md-medium-font-family);
 			a{
 				font-family: var(--text-md-medium-font-family);
+				color: var(--link-neutral) !important;
 			}
 			&:not(:last-of-type)::before{
-				top: 4px;
+				top: 1px;
+				background-size: 16px;
+				#{$end-direction}: 13px;
+				width: 16px;
+				height: 16px;
 			}
-
+			&::before{
+				background-image: url(../images/mewa-DGA/shared/old-chevron-left.svg) !important;
+			}
 		}
 	}
 
@@ -1162,6 +1183,18 @@ html body{
 	  font-style: var(--text-md-regular-font-style);
 	  width: 97%;
 	}
+	.textAccordion{
+		div{
+			font-family: var(--text-md-regular-font-family);
+			font-weight: var(--text-md-regular-font-weight);
+			color: #384250;
+			font-size: var(--text-md-regular-font-size);
+			letter-spacing: var(--text-md-regular-letter-spacing);
+			line-height: var(--text-md-regular-line-height);
+			font-style: var(--text-md-regular-font-style);
+			width: 97%;
+		}
+	}
 	.accordion-item {
 	  border: unset;
 	  .accordion-button {
@@ -1408,7 +1441,11 @@ html body{
 						background-color: var(--themes-button-button-background-neutral-default);
 					}
 				}
-				
+				&:hover{
+					a{
+						background-color: var(--themes-button-button-background-neutral-default);
+					}
+				}
 
 			}
 			.download{

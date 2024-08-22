@@ -13676,6 +13676,10 @@ body .content .ms-rtestate-field h2 {
   margin-left: auto;
 }
 
+.menuBg .navbarCustom .colMenu h4 a {
+  font-size: inherit;
+}
+
 .MainHeader .boxHeader .headerText p {
   line-height: var(--text-lg-regular-line-height);
 }
@@ -14145,14 +14149,15 @@ body .content .ms-rtestate-field h2 {
 }
 
 .footerDGA .FooterLinks h4 {
-  padding: 0px 0px var(--spacing-spacing-md) 0px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-color: var(--themes-border-border-oncolor-transparent-30);
-  color: var(--themes-text-text-oncolor-primary);
-  margin-bottom: var(--spacing-spacing-md);
-  font-family: var(--text-sm-regular-font-family);
-  font-weight: var(--text-md-medium-font-weight);
+  padding: 0px 0px var(--spacing-spacing-md) 0px !important;
+  border-bottom-width: 1px !important;
+  border-bottom-style: solid !important;
+  border-color: var(--themes-border-border-oncolor-transparent-30) !important;
+  color: var(--themes-text-text-oncolor-primary) !important;
+  margin-bottom: var(--spacing-spacing-md) !important;
+  font-family: var(--text-sm-regular-font-family) !important;
+  font-weight: var(--text-md-medium-font-weight) !important;
+  font-size: var(--text-md-medium-font-size) !important;
 }
 
 .footerDGA .FooterLinks ul {
@@ -14161,17 +14166,17 @@ body .content .ms-rtestate-field h2 {
 }
 
 .footerDGA .FooterLinks ul li {
-  margin-bottom: var(--spacing-spacing-md);
+  margin-bottom: var(--spacing-spacing-md) !important;
 }
 
 .footerDGA .FooterLinks ul li a {
-  font-size: var(--text-sm-regular-font-size);
-  line-height: var(--text-sm-regular-line-height);
-  font-family: var(--text-sm-regular-font-family);
-  font-weight: var(--text-sm-regular-font-weight);
-  color: var(--themes-link-link-oncolor);
-  letter-spacing: var(--text-sm-regular-letter-spacing);
-  font-style: var(--text-sm-regular-font-style);
+  font-size: var(--text-sm-regular-font-size) !important;
+  line-height: var(--text-sm-regular-line-height) !important;
+  font-family: var(--text-sm-regular-font-family) !important;
+  font-weight: var(--text-sm-regular-font-weight) !important;
+  color: var(--themes-link-link-oncolor) !important;
+  letter-spacing: var(--text-sm-regular-letter-spacing) !important;
+  font-style: var(--text-sm-regular-font-style) !important;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   display: -webkit-box;
@@ -14181,13 +14186,19 @@ body .content .ms-rtestate-field h2 {
 
 .footerDGA .FooterLinks ul li a span {
   padding-right: 5px;
+  font-size: var(--text-sm-regular-font-size) !important;
+  line-height: var(--text-sm-regular-line-height) !important;
+  font-family: var(--text-sm-regular-font-family) !important;
+  font-weight: var(--text-sm-regular-font-weight) !important;
+  color: var(--themes-link-link-oncolor) !important;
+  letter-spacing: var(--text-sm-regular-letter-spacing) !important;
 }
 
 .footerDGA .FooterLinks ul li a:hover {
-  font-size: var(--text-sm-regular-underlined-font-size);
-  line-height: var(--text-sm-regular-underlined-line-height);
-  text-decoration: underline;
-  color: var(--primitives-colors-alpha-alpha-white-80);
+  font-size: var(--text-sm-regular-underlined-font-size) !important;
+  line-height: var(--text-sm-regular-underlined-line-height) !important;
+  text-decoration: underline !important;
+  color: var(--primitives-colors-alpha-alpha-white-80) !important;
 }
 
 .footerDGA .FooterLinks .social {
@@ -14392,10 +14403,19 @@ html body {
 
 .breadcrumbSec .breadcrumb li a {
   font-family: var(--text-md-medium-font-family);
+  color: var(--link-neutral) !important;
 }
 
 .breadcrumbSec .breadcrumb li:not(:last-of-type)::before {
-  top: 4px;
+  top: 1px;
+  background-size: 16px;
+  left: 13px;
+  width: 16px;
+  height: 16px;
+}
+
+.breadcrumbSec .breadcrumb li::before {
+  background-image: url(../images/mewa-DGA/shared/old-chevron-left.svg) !important;
 }
 
 .breadcrumbSec .font35pxBold {
@@ -14820,6 +14840,17 @@ html body {
   width: 97%;
 }
 
+.customAccordion .textAccordion div {
+  font-family: var(--text-md-regular-font-family);
+  font-weight: var(--text-md-regular-font-weight);
+  color: #384250;
+  font-size: var(--text-md-regular-font-size);
+  letter-spacing: var(--text-md-regular-letter-spacing);
+  line-height: var(--text-md-regular-line-height);
+  font-style: var(--text-md-regular-font-style);
+  width: 97%;
+}
+
 .customAccordion .accordion-item {
   border: unset;
 }
@@ -15100,6 +15131,10 @@ html body {
 }
 
 .list-system-cards.list-sysDGA .system-card .sys-btns .sys-share .share:hover {
+  background-color: var(--themes-button-button-background-neutral-default);
+}
+
+.list-system-cards.list-sysDGA .system-card .sys-btns .sys-share:hover a {
   background-color: var(--themes-button-button-background-neutral-default);
 }
 
