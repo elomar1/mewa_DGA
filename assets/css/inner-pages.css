@@ -27,7 +27,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
 }
 
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-size: 2.1875rem;
   font-weight: 700;
   color: #005D45;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
 }
 
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .content h4 {
   font-size: 1.55rem;
   color: #005D45;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .content p {
   font-size: 1.0625rem;
   font-weight: 400;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   color: #32383D;
   /*padding-right: 35px;*/
@@ -66,12 +66,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .content p a {
   font-size: 1.0625rem;
   color: #46C752;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
 }
 .content ul li {
   font-size: 1.0625rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 400;
   color: #0B261F;
   margin-bottom: 10px;
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .content .ms-rtestate-field {
   font-size: 1.125rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
 }
 
@@ -121,7 +121,7 @@ span.required-star {
   transition: 500ms;
   background-color: transparent !important;
   padding: 0 !important;
-  font-family: "LinaSans" !important;
+  font-family: inherit !important;
   font-weight: 600;
 }
 .ms-core-listMenu-root li.selected {
@@ -164,7 +164,7 @@ a:visited {
 .ms-rtestate-field div {
   font-size: 1.0625rem;
   font-weight: 500;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 400;
   color: #32383D;
   /*padding-right: 35px;
@@ -177,7 +177,7 @@ a:visited {
   font-weight: 700;
   color: #041A2D;
   /* margin-bottom: -15px; */
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
   /* display: block; */
   position: relative;
@@ -266,7 +266,7 @@ a:visited {
   line-height: 37px;
   height: 74px;
   color: #041A2D;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
   margin: 0;
   position: relative;
@@ -293,7 +293,7 @@ a:visited {
   max-height: 180px;
   overflow: hidden;
   margin-top: 0;
-  font-family: "LinaSans";
+  font-family: inherit;
   text-align: center;
   color: #646D75 !important;
   padding-bottom: 30px !important;
@@ -386,14 +386,14 @@ a:visited {
   border: 0px;
   margin-top: 10px;
   font-size: 1rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
   text-align: center;
 }
 
 .serviceDetails-title {
   font-size: 1.75rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
   color: #041A2D;
   margin-top: 20px;
@@ -410,7 +410,7 @@ a:visited {
 .ms-rtestate-field p, p.ms-rteElement-P {
   color: #32383D;
   font-size: 1.125rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 400;
 }
 
@@ -422,7 +422,7 @@ a:visited {
   padding-left: 0;
   padding-right: 35px;
   font-size: 1.0625rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 400;
   color: #0B261F;
 }
@@ -436,7 +436,7 @@ a:visited {
 
 .serviceDetails-action a {
   font-size: 1rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   border-radius: 5px;
   margin-right: 10px;
@@ -537,7 +537,7 @@ a.card.card-Category .card-content {
   transition: 0.5s;*/
 }
 a.card.card-Category .card-content .card--title {
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 35px;
@@ -567,7 +567,7 @@ a.card.card-Category .card-content .card--title::before {
 }
 a.card.card-Category .card-content .card--details {
   font-size: 0.875rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 400;
   color: #646D75;
   margin-bottom: 20px;
@@ -759,7 +759,7 @@ ul.dfwp-column.dfwp-list li.dfwp-item {
   margin-bottom: 37px;
   font-size: 20px;
   color: #626262;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
 }
 .lay-FullDetails .fullDetails-date svg {
@@ -913,7 +913,7 @@ a.titleOnlyWithNumber .titleOnlyWithNumber-title {
 }
 .card.card-socialMedia .card--title {
   font-size: 1.5625rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
   padding: 0;
   margin: 0;
@@ -976,7 +976,7 @@ hr {
 .LinkTitleOnly a {
   color: black;
   font-size: 16px;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
 }
 
@@ -1019,7 +1019,7 @@ hr {
 }
 
 .ms-acal-rootdiv div {
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 400;
 }
 
@@ -1053,7 +1053,7 @@ hr {
 
 .card.card-contactInformation .contactInformation---addres {
   font-size: 0.875rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
   position: relative;
   display: inline-block;
@@ -1092,7 +1092,7 @@ hr {
   font-size: 1.75rem;
   margin-bottom: 1.25rem;
   color: #053b62;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
 }
 
@@ -1162,14 +1162,14 @@ hr {
 }
 
 .card.card-agency .card--details .card--details---info {
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
   display: block;
   padding-bottom: 0.3125rem;
 }
 
 .card.card-agency .card--details .card--details---Brief {
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
   display: block;
   font-size: 1.375rem;
@@ -1274,7 +1274,7 @@ label {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
 }
 
@@ -1303,7 +1303,7 @@ label {
   padding: 0.625rem 1.5625rem;
   font-size: 0.9375rem;
   min-width: 9.375rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
 }
 
@@ -1315,7 +1315,7 @@ label {
 
 .ms-advsrchtips span {
   font-size: 1.25rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
 }
 
@@ -1413,7 +1413,7 @@ label {
 }
 
 .card.card-Event .card--date.card--dateBrief {
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
   padding: 15px;
   height: 90px;
@@ -1503,7 +1503,7 @@ label {
 }
 
 .ms-webpart-titleText.ms-webpart-titleText, .ms-webpart-titleText > a {
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
 }
 
@@ -1537,7 +1537,7 @@ ol {
 }
 
 .mediaCenterTabs .nav-tabs > li > a {
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   /* border-bottom: 0; */
 }
@@ -1569,7 +1569,7 @@ ol {
 
 .voiceTxt p {
   font-size: 1rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   line-height: 24px;
   color: #32383D;
@@ -1604,7 +1604,7 @@ ol {
 .voiceTxt ul.list li {
   font-size: 1rem;
   color: #32383D;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   margin-bottom: 5px;
   text-align: center;
@@ -2055,7 +2055,7 @@ ol {
   }
 }
 .nav-tabs input {
-  font-family: "LinaSans";
+  font-family: inherit;
 }
 
 .ads-list .boxADSSlide .ADBoxTxt {
@@ -2158,7 +2158,7 @@ input[type=button], input[type=reset], input[type=submit] {
 }
 
 .panel .panel-body p {
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   color: #fff;
   margin-bottom: 10px;
@@ -2167,7 +2167,7 @@ input[type=button], input[type=reset], input[type=submit] {
 /* survey styles */
 .questionaire-form .tittel p {
   font-size: 20px;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   color: #003462;
 }
@@ -2185,7 +2185,7 @@ input[type=button], input[type=reset], input[type=submit] {
   min-height: 60px;
   color: #32383D;
   border: none;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 400;
   height: auto;
   min-height: auto;
@@ -2206,7 +2206,7 @@ input[type=button], input[type=reset], input[type=submit] {
   border-color: #46C752;
   color: #fff;
   font-size: 1rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   padding: 10px;
   width: 140px;
@@ -2268,7 +2268,7 @@ div.question label {
           padding-inline-start: 35px;
   font-size: 16px;
   color: #32383D;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   cursor: pointer;
 }
@@ -2418,13 +2418,13 @@ div.question input[type=radio] ~ label:after {
 
 .surveyQuestionTitle {
   font-size: 1.25rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
 }
 
 .responsesCount {
   font-size: 1.125rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -2454,7 +2454,7 @@ div.question input[type=radio] ~ label:after {
   -webkit-margin-end: 50px;
           margin-inline-end: 50px;
   font-size: 1.25rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   min-width: 15%;
 }
@@ -2695,7 +2695,7 @@ a.btn.btn-primary:visited {
 }
 
 .dfwp-list .dfwp-item .panel .panel-body div {
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   color: #fff;
   margin-bottom: 10px;
@@ -2828,7 +2828,7 @@ a.btn.btn-primary:visited {
   color: #fff;
   font-size: 14px;
   padding-right: 8px;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 400;
 }
 
@@ -3220,7 +3220,7 @@ input[type=submit].btn {
   font-size: 1rem;
   font-weight: 500;
   border-radius: 8px;
-  font-family: "LinaSans";
+  font-family: inherit;
 }
 
 .initiatives-intro {
@@ -3536,7 +3536,7 @@ h2.initiatives--title {
           padding-inline-start: 35px;
   font-size: 16px;
   color: #32383D;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   cursor: pointer;
 }
@@ -3619,7 +3619,7 @@ h2.initiatives--title {
           padding-inline-start: 35px;
   font-size: 16px;
   color: #32383D;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   cursor: pointer;
   display: inline-block;
@@ -3686,7 +3686,7 @@ background-color: #fff;
           padding-inline-start: 35px;
   font-size: 16px;
   color: #32383D;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
 }
 
@@ -4226,7 +4226,7 @@ h2.portal-stats-title span {
   -webkit-transition: 500ms;
   transition: 500ms;
   min-width: auto !important;
-  font-family: "LinaSans" !important;
+  font-family: inherit !important;
   margin-top: -8px !important;
 }
 
@@ -4253,7 +4253,7 @@ h2.portal-stats-title span {
           padding-inline-start: 30px;
   font-size: 16px;
   color: #32383D;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 400;
 }
 
@@ -5056,7 +5056,7 @@ div[id*=VotingBody] .radio-inline label {
           padding-inline-start: 25px;
   font-size: 16px;
   color: #32383D;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
   cursor: pointer;
   display: inline-block;
@@ -5434,7 +5434,7 @@ div#SearchOptions .ms-srch-sbLarge-link {
 .container.SearchContainer .ms-srch-sbLarge input {
   width: 96%;
   font-size: 1rem;
-  font-family: "LinaSans";
+  font-family: inherit;
 }
 
 .container.SearchContainer .ms-srch-sbLarge .ms-srch-sb-searchLink {
@@ -5504,7 +5504,7 @@ div#SearchOptions .ms-srch-sbLarge-link {
 
 .card.card-Category .card-content .card--details div p {
   font-size: 0.875rem;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 400;
   color: #646D75;
   margin-bottom: 20px;
@@ -5541,7 +5541,7 @@ div#SearchOptions .ms-srch-sbLarge-link {
 }
 
 ul#Actions {
-  font-family: "LinaSans";
+  font-family: inherit;
 }
 
 .ms-srch-item {
@@ -5708,7 +5708,7 @@ overflow:hidden
           padding-inline-start: 35px;
   font-size: 16px;
   color: #32383D;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 500;
 }
 
@@ -6666,7 +6666,7 @@ button.rsbtn_tooltoggle {
 
 .rs_addtools .rsbtn_play, .rsbtn .rsbtn_play .rsbtn_left {
   margin: 0 7px !important;
-  font-family: "LinaSans" !important;
+  font-family: inherit !important;
 }
 
 .breadcrumbSec .socialBC > li:hover > .innderSocial {
@@ -6685,7 +6685,7 @@ button.rsbtn_tooltoggle {
 }
 
 .rs_addtools .rsbtn_play, .rsbtn .rsbtn_play .rsbtn_left * {
-  font-family: "LinaSans" !important;
+  font-family: inherit !important;
   font-size: 0.75rem !important;
   font-weight: 400 !important;
 }
@@ -7510,7 +7510,7 @@ footer .row .mobile-Apps ul li a {
 }
 .sendMail input.searchSubmit2 {
   color: #fff;
-  font-family: "LinaSans";
+  font-family: inherit;
 }
 
 #mailModal .modal-content .modal-body .sendMail {
@@ -7636,7 +7636,7 @@ div#CareerModal .btn-secondary {
 .form-group span.control-label {
   display: inline-block;
   max-width: 100%;
-  font-family: "LinaSans";
+  font-family: inherit;
   font-weight: 600;
 }
 
@@ -7801,7 +7801,7 @@ html[dir=ltr] #sn_va_web_client {
         -ms-flex-pack: center;
             justify-content: center;
     font-size: 18px;
-    font-family: "LinaSans";
+    font-family: inherit;
     font-weight: 900;
   }
   .Appended2 {

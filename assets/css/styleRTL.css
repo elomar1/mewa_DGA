@@ -15436,7 +15436,6 @@ html body {
 @media (min-width: 1600px) {
   html {
     /* font-size: 135%; */
-    font-size: 21px;
   }
   body .orChartNew .level3 .AgencyCard.borderBottom:nth-of-type(2) .borderBOT {
     margin-left: 6px;
@@ -15452,7 +15451,6 @@ html body {
 @media (max-width: 1600px) {
   html {
     /* font-size: 125%; */
-    font-size: 18px;
   }
   .newLastChart .levelBetw34 .right {
     -webkit-transform: translate(-11px, -51px);

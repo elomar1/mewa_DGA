@@ -33,7 +33,7 @@
 	}
 	img {
 		max-width: 18px;
-		margin-right: 12px;
+		margin-#{$start-direction}: 12px;
 	}
 }
 .eventsSection .actionBF .btnArrow,
@@ -96,7 +96,7 @@
 			line-height: var(--text-md-regular-line-height);
 			color: #384250;
 			img {
-				margin-left: 10px;
+				margin-#{$end-direction}: 10px;
 				width: 21px;
 			}
 		}
@@ -135,13 +135,13 @@
 			&.borderWidth {
 				img {
 					height: 50px;
-					border-right: 1px solid rgba(167, 173, 174, 0.5);
+					border-#{$start-direction}: 1px solid rgba(167, 173, 174, 0.5);
 				}
 			}
 		}
 		.searchBNT {
 			button {
-				border-left: unset !important;
+				border-#{$end-direction}: unset !important;
 			}
 		}
 		.navbar-nav {
@@ -149,7 +149,7 @@
 		}
 		.nav-item {
 			&:nth-last-of-type(3) {
-				margin-left: auto;
+				margin-#{$end-direction}: auto;
 			}
 		}
 	}
@@ -169,7 +169,7 @@
 		height: 30px;
 		background-color: #ff0000;
 		top: 30px;
-		right: 30px;
+		#{$start-direction}: 30px;
 	}
 }
 .servicesBg {
@@ -249,12 +249,12 @@
 		width: 200px;
 		height: 200px;
 		bottom: 0;
-		left: 0;
+		#{$end-direction}: 0;
 		background: transparent url(../images/home/brifBg.png ) no-repeat;
 	}
 	.briefText {
 		.font35pxBold {
-			text-align: right;
+			text-align: #{$start-direction};
 		}
 		.font20Bold {
 			color: #ffffff;
@@ -306,7 +306,7 @@
 					top: 0px;
 					min-height: 25px;
 					background-color: #46C752;
-					right: -30px;
+					#{$start-direction}: -30px;
 					border-radius: 15px 0px 0px 15px;
 				}
 			}
@@ -316,21 +316,21 @@
 				background: transparent;
 				padding: 0;
 				height: auto;
-				text-align: right;
-				border-right: 3px solid transparent;
-				padding-right: 12px;
+				text-align: #{$start-direction};
+				border-#{$start-direction}: 3px solid transparent;
+				padding-#{$start-direction}: 12px;
 				color: var(--themes-text-text-primary-paragraph);
 				font-size: var(--text-md-regular-font-size);
 				margin-bottom: 32px;
 				display: flex;
 				align-items: center;
 				img {
-					margin-left: 5px;
+					margin-#{$end-direction}: 5px;
 				}
 				&.active {
 					color: var(--themes-text-text-primary);
 					font-size: var(--text-md-semibold-font-size);
-					border-right: 3px solid var(--themes-border-border-primary);
+					border-#{$start-direction}: 3px solid var(--themes-border-border-primary);
 					filter: invert(36%) sepia(99%) saturate(373%) hue-rotate(101deg) brightness(92%) contrast(85%);
 					&::after {
 						display: none;
@@ -410,7 +410,7 @@
 }
 .tabsCustom {
 	.nav-item {
-		margin-left: 0;
+		margin-#{$end-direction}: 0;
 		.nav-link {
 			border: unset;
 			font-size: 1.125rem;
@@ -424,8 +424,8 @@
 			background-color: var(--themes-button-button-background-neutral-pressed);
 			font-weight: var(--text-xl-regular-font-weight);
 			min-width: auto;
-			border-left: 1px solid var(--themes-border-border-neutral-primary);
-			border-right: 1px solid var(--themes-border-border-neutral-primary);
+			border-#{$end-direction}: 1px solid var(--themes-border-border-neutral-primary);
+			border-#{$start-direction}: 1px solid var(--themes-border-border-neutral-primary);
 			&.active {
 				background-color: var(--themes-button-button-background-primary-default);
 			}
@@ -639,7 +639,7 @@
             transition: 0.3s;
             display: flex;
             span {
-              padding-right: 5px;
+              padding-#{$start-direction}: 5px;
             }
             &:hover {
               font-size: var(--text-sm-regular-underlined-font-size);
@@ -677,8 +677,8 @@
             img {
               width: 24px;
               height: 24px;
-              margin-left: -8px;
-              margin-right: -8px;
+              margin-#{$end-direction}: -8px;
+              margin-#{$start-direction}: -8px;
               max-width: unset;
             }
             span {
@@ -721,8 +721,8 @@
             img {
               width: 24px;
               height: 24px;
-              margin-left: -8px;
-              margin-right: -8px;
+              margin-#{$end-direction}: -8px;
+              margin-#{$start-direction}: -8px;
               max-width: unset;
             }
             span {
@@ -783,8 +783,8 @@
   
     .logos-box {
       max-width: 275px;
-      margin-right: auto;
-      margin-left: 0;
+      margin-#{$start-direction}: auto;
+      margin-#{$end-direction}: 0;
       img {
         max-width: 100%;
       }
@@ -822,7 +822,7 @@ html body{
 	}
 
 		.font35pxBold {
-			text-align: right;
+			text-align: #{$start-direction};
 			padding-top: 10px;
 			color: var(--themes-text-text-default);
 		}
@@ -1107,7 +1107,7 @@ html body{
 	flex-direction: row;
 	align-items: center;
 	border: 1px solid var(--themes-border-border-neutral-primary);
-	border-right: 8px solid var(--background-warning);
+	border-#{$start-direction}: 8px solid var(--background-warning);
 	border-radius: var(--radius-radius-md);
 	gap: var(--notification-gap);
 	.icon-box{
@@ -1180,7 +1180,7 @@ html body{
 		position: relative;
 		&::after {
 		  position: absolute;
-		  left: 23px;
+		  #{$end-direction}: 23px;
 		  top: 23px;
 		}
 
@@ -1221,7 +1221,7 @@ html body{
 			content: '';
 			position: absolute;
 			bottom: 3px;
-			right: 50%;
+			#{$start-direction}: 50%;
 			transform: translateX(50%);
 			width: 80%;
 			height: 3px;
@@ -1262,7 +1262,7 @@ html body{
 					line-height: var(--text-xs-medium-line-height);
 					color: var(--table-text-head);
 					border: 1px solid var(--table-cell-border-color);
-					text-align: right;
+					text-align: #{$start-direction};
 				}
 			}
 			&:nth-child(odd){
@@ -1274,7 +1274,7 @@ html body{
 				font-weight: var(--text-md-regular-font-weight);
 				line-height: var(--text-md-regular-line-height);
 				color: var(--table-text-body);
-				text-align: right;
+				text-align: #{$start-direction};
 			}
 			
 		}
@@ -1314,7 +1314,7 @@ html body{
 		  padding: var(--primitives-spacing-5-20px) var(--primitives-spacing-4-16px);
 		  box-shadow: none;
 		  max-width: 355px;
-		  margin-right: auto;
+		  margin-#{$start-direction}: auto;
 		  max-height: 220px;
 		  h3{
 			  display: none;
@@ -1325,8 +1325,8 @@ html body{
 		&.blue-bg{
 			background-color: var(--themes-background-background-neutral-50);
 			.socMed-img {
-				margin-right: 0;
-				margin-left: auto;
+				margin-#{$start-direction}: 0;
+				margin-#{$end-direction}: auto;
 			}
 		}
 	  }
