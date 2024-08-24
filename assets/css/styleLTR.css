@@ -15045,6 +15045,21 @@ html body {
   margin: 0;
 }
 
+.list-system-cards.list-sysDGA .system-card .content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  gap: var(--spacing-global-spacing-lg);
+}
+
 .list-system-cards.list-sysDGA .system-card .content-box h4 {
   color: var(--table-text-head);
   font-size: var(--text-lg-bold-font-size);
@@ -15053,6 +15068,7 @@ html body {
   margin: 0;
   padding: 0;
   border: 0;
+  height: auto;
 }
 
 .list-system-cards.list-sysDGA .system-card .sys-btns {
@@ -15458,6 +15474,78 @@ html body {
   line-height: var(--text-lg-bold-line-height);
 }
 
+/*
+	media
+*/
+@media (max-width: 992px) {
+  .menuBg .navbarCustom .dropdown-menu {
+    padding-top: 1px;
+  }
+  .ADSSecti .owl-dots {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .interactive-map .map-bg .main-content {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .interactive-map .map-bg .svg-map {
+    -webkit-transform: scale(0.35) translate(95%, 0);
+            transform: scale(0.35) translate(95%, 0);
+  }
+  .list-system-cards .system-card .content-box .sys-btns .sys-share .share img,
+  .list-system-cards .system-card .content-box .sys-btns .download img {
+    width: auto !important;
+  }
+  .wakeel .wakeel-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Administration .owl-carousel .owl-nav button.owl-next,
+  .Administration .owl-carousel .owl-nav button.owl-prev {
+    top: 50%;
+  }
+}
+
+.inner .DgaCard .Dtxt .title {
+  margin: 0 !important;
+}
+
+.inner .DgaCard .Dtxt p {
+  padding: 0 !important;
+}
+
+/*
+	en fixxxx
+*/
+html[dir="ltr"] .inner .ministry-card .btns-box .ministry-more img,
+html[dir="ltr"] .inner .partners-list .partners-card .btns-box .ministry-more img {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+html[dir="ltr"] .patternIcon::after, html[dir="ltr"] .menuBg .navbarCustom .colMenu h4::after, .menuBg .navbarCustom .colMenu html[dir="ltr"] h4::after, html[dir="ltr"] .servicesBg .sevBob:hover h3::after, .servicesBg .sevBob:hover html[dir="ltr"] h3::after,
+html[dir="ltr"] .menuBg .navbarCustom .colMenu h4::after,
+html[dir="ltr"] .servicesBg .sevBob:hover h3::after,
+html[dir="ltr"] .menuBg .navbarCustom .colMenu h4::after,
+html[dir="ltr"] .servicesBg .sevBob:hover h3::after {
+  border-radius: 0 15px 15px 0;
+}
+
+html[dir="ltr"] .customTab-two .nav-link::before {
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
 /* ---- EN ----- */
 @media (min-width: 1200px) {
   .menuBg .navbarCustom .nav-item .nav-link {
@@ -15474,7 +15562,6 @@ html body {
 @media (min-width: 1600px) {
   html {
     /* font-size: 135%; */
-    font-size: 21px;
   }
   body .orChartNew .level3 .AgencyCard.borderBottom:nth-of-type(2) .borderBOT {
     margin-right: 6px;
@@ -15490,7 +15577,6 @@ html body {
 @media (max-width: 1600px) {
   html {
     /* font-size: 125%; */
-    font-size: 18px;
   }
   .newLastChart .levelBetw34 .right {
     -webkit-transform: translate(11px, -51px);

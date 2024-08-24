@@ -2569,13 +2569,12 @@ div.question input[type=radio] ~ label:after {
   }
 
 .pagination .NextPagi, .pagination .prePagi {
-    width: 40px;
+    width: 55px;
 	  height: 40px;
 	  padding: var(--spacing-global-spacing-none) var(--spacing-button-buttons-lg-padding) var(--spacing-global-spacing-none) var(--spacing-button-buttons-lg-padding);
 	  gap: var(--spacing-button-buttons-lg-gap);
 	  border-radius: var(--radius-radius-radius-sm);
 	  overflow: hidden;
-    transform: scaleX(-1);
 }
 
 #lay-internalAgencies .card.card-withIcon .card--icon > img, .card.card-withIcon .card--icon svg {
@@ -8832,9 +8831,13 @@ footer {
   display: none;
 }
 
+.borderWidth::after{
+  bottom: 0;
+}
 
-
-
+.contrast .menuBg:before {
+  filter: grayscale(100%) brightness(95%) contrast(120%);
+}
 
 /*
   after dga fix
@@ -8859,7 +8862,100 @@ footer {
 .eventsSection .list-system-cards.list-sysDGA .system-card .img-box img{
   width: 35px;
 }
+.sort-button{
+  background-color: var(--themes-background-background-primary) !important;
+  font-weight: var(--text-md-medium-font-weight) !important;
+}
+.social-media-2 .socMed-card .socMed-content p{
+  padding: 0;
+}
 
-.eventsSection .list-system-cards.list-sysDGA .system-card .sys-btns{
-  margin-top:12px
+
+html[dir="ltr"] .breadcrumb span:not(:last-of-type)::before{
+  right: 13px;
+  left: auto;
+  transform: scaleX(-1);
+}
+
+html[dir="ltr"] .breadcrumbSec .patternIcon,
+html[dir="ltr"] .breadcrumbSec .menuBg .navbarCustom .colMenu h4,
+html[dir="ltr"] .menuBg .navbarCustom .colMenu .breadcrumbSec h4,
+html[dir="ltr"] .breadcrumbSec .servicesBg .sevBob:hover h3,
+html[dir="ltr"] .servicesBg .sevBob:hover .breadcrumbSec h3{
+  transform: translate(30px);
+}
+html[dir="ltr"] .menuBg .navbarCustom > .navbar-brand{
+  width: auto;
+}
+
+html[dir="ltr"] .sort-section .sort-search input {
+  background-position-x: 95%;
+}
+
+html[dir="ltr"] .sort-section select {
+  background-position-x: 95%;
+}
+
+html[dir="ltr"] .sort-section .col-md-3 label {
+  flex: 0 0 80px;
+}
+
+html[dir="ltr"] .sort-section label img {
+  margin-right: 3px;
+}
+
+
+html[dir="ltr"] .HappensNowPuple .asbo, .HappensNowPuple span {
+  right: auto;
+  left: 50%;
+  font-size: 14px;
+}
+
+html[dir="ltr"] .alert.alert-warning ,
+html[dir="ltr"] .alert-info{
+    text-align: start;
+}
+
+html[dir="ltr"] .alert-warning:before ,
+html[dir="ltr"] .alert-info:before {
+    right: auto;
+    left: 25px;
+}
+
+html[dir="ltr"] .customAccordion .accordion-item .accordion-button {
+  direction: ltr;
+}
+
+html[dir="ltr"] .MainHeader .boxHeader > img:last-of-type{
+  transform: scaleX(-1);
+}
+
+html[dir="ltr"] .btnArrow img,
+html[dir="ltr"] .owl-carousel .owl-nav button.owl-next,
+html[dir="ltr"] .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+   transform: scaleX(-1);
+}
+
+html[dir="ltr"] .tabsCustom .nav-item:first-of-type button {
+  border-radius: 8px 0 0 8px;
+}
+
+html[dir="ltr"] .tabsCustom .nav-item:last-of-type button {
+  border-radius: 0 8px 8px 0;
+}
+html[dir="ltr"] .mediaCenter .homeGallaryWrapper .boxHG > a .boxImg::before {
+  transform: translate(50%, -50%);
+}
+
+html[dir="ltr"] .borderWidth::after {
+  transform: translateX(50%);
+}
+html[dir="ltr"] .menuBg:before {
+  font-family: 'IBMPlex Sans';
+  font-weight: 400;
+  right: auto;
+  top: 35px;
+  left: -32px;
+  transform: rotate(90deg);
+  content: "Beta Version";
 }
