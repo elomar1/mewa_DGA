@@ -8989,6 +8989,19 @@ html[dir="ltr"] .menuBg:before {
 .initiatives--brief p, .initiatives--brief div {
   line-height: 1.8;
 }
-.content table tbody tr:first-child {
-  background: #f1f1f1 !important;
+.footerDGA .btm-footer .footer-last .dir-links-2,
+.footerDGA .btm-footer .footer-last .dir-links {
+  list-style: none !important;
+  padding: 0;
+}
+[dir="ltr"] .list-system-cards.list-sysDGA .system-card .content-box h4 {
+  height: calc(var(--text-lg-bold-line-height) * 2);
+}
+[dir="ltr"] .servicesBg .sevBob h3 {
+  text-align: left;
+  margin: unset;
+}
+[dir="rtl"] .servicesBg .sevBob h3 {
+  text-align: right;
+  margin: unset;
 }
