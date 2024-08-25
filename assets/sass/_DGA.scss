@@ -1772,8 +1772,14 @@ html body{
 .inner .DgaCard .Dtxt p{
 	padding: 0 !important;
 }
-
-
+#AsynchronousViewDefault_CalendarView table tbody tr:first-child {
+	border: 0;
+}
+#audioControls .voiceTxt h3,
+#audioControls .modal-title {
+    color: #005D45;
+	font-weight: bold;
+}
 /*
 	en fixxxx
 */
