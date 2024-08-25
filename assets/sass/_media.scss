@@ -1843,6 +1843,7 @@ html[dir="ltr"] {
         .h2-main {
             font-size: 28px;
         }
+        
         /* end 22222222222222222222222222222222222222222222222222222222 */
 
         .shared-dev-ideas p,
@@ -2703,7 +2704,7 @@ html[dir="ltr"] {
 
         .wakeel .wakeel-card {
             display: block;
-            height: auto;
+            height: min-content;
         }
 
         .wakeel .wakeel-card .img-box {

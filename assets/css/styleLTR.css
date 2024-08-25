@@ -11011,7 +11011,8 @@ html body {
 
 .content table tbody tr:first-child {
   background-color: var(--table-background-header) !important;
-  background: var(--table-background-header) !important;
+  background: #f1f1f1 !important;
+  /*background: var(--table-background-header) !important;*/
   border: 1px solid var(--table-cell-border-color);
 }
 
@@ -13554,7 +13555,7 @@ body .content .ms-rtestate-field h2 {
   }
   .wakeel .wakeel-card {
     display: block;
-    height: auto;
+    height: min-content;
   }
   .wakeel .wakeel-card .img-box {
     width: 100%;

@@ -1283,7 +1283,8 @@ html body{
 			background-color: var(--primitives-colors-base-white);
 			&:first-child{
 				background-color: var(--table-background-header) !important;
-				background: var(--table-background-header) !important;
+				background: #f1f1f1 !important;
+				/*background: var(--table-background-header) !important;*/
 				border: 1px solid var(--table-cell-border-color);
 				td,
 				th{

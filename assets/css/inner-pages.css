@@ -8983,3 +8983,12 @@ html[dir="ltr"] .menuBg:before {
 [dir="ltr"]  .social-media-2 .socMed-card .socMed-content p {
   padding-left: 0;
 }
+#AsynchronousViewDefault_CalendarView table tbody {
+    border: unset;
+}
+.initiatives--brief p, .initiatives--brief div {
+  line-height: 1.8;
+}
+.content table tbody tr:first-child {
+  background: #f1f1f1 !important;
+}
