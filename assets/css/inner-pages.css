@@ -8959,12 +8959,27 @@ html[dir="ltr"] .menuBg:before {
   transform: rotate(90deg);
   content: "Beta Version";
 }
+
+/* ao */
+#audioControls .voiceTxt h3,
+#audioControls .modal-title {
+    color: #005D45;
+	font-weight: bold;
+}
 .voiceTxt h3 {
   margin-bottom: 20px;
 }
-[dir="rtl"] .voiceTxt ul.list {
-  text-align: right;
+[dir="rtl"] .voiceTxt ul.list li {
+  text-align: right !important;
 }
-[dir="ltr"] .voiceTxt ul.list {
-  text-align: left;
+[dir="ltr"] .voiceTxt ul.list li {
+  text-align: left !important;
+}
+[dir="ltr"] .HappensNowPuple span {
+  font-size: .8rem;
+  width: 50%;
+  text-align: center;
+}
+[dir="ltr"]  .social-media-2 .socMed-card .socMed-content p {
+  padding-left: 0;
 }
