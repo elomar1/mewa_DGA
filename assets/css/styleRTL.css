@@ -11526,6 +11526,157 @@ html[dir="ltr"] .customTab-two .nav-link::before {
   transform: translateX(-50%);
 }
 
+/* start QC MEWA 26-8-2024 */
+.Sections a {
+  margin-bottom: 4px;
+}
+
+.ms-rtestate-field div {
+  line-height: 1.5;
+}
+
+.inner .partners-list .partners-card .Dtxt .title {
+  height: calc(var(--text-lg-bold-line-height)* 2);
+  overflow: hidden;
+}
+
+.check-button-list-h {
+  margin-bottom: 8px;
+}
+
+.answer_wrap input[type=submit].btn.btn-primary {
+  height: 39px;
+  padding: 0 20px;
+  min-width: unset;
+  margin-left: 10px;
+}
+
+.check-button-list-h label {
+  margin-bottom: 12px;
+}
+
+.check-button-list-h label:after {
+  top: 2px;
+}
+
+.check-button-list-h label:before {
+  top: -2px;
+}
+
+#feedbackNo,
+#feedbackYes {
+  margin-bottom: 12px;
+}
+
+.alertInfo .boxAlert a,
+.alertEvaluation .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alertInfo .boxAlert a img {
+  margin-top: -3px;
+}
+
+.sort-section .sort-search + .sort-button {
+  transform: translateY(2px);
+}
+
+[dir="rtl"] .sort-section .sort-search + .sort-button {
+  margin-right: 8px;
+}
+
+[dir="ltr"] .sort-section .sort-search + .sort-button {
+  margin-left: 8px;
+}
+
+body.contrast .menuBg:not(.fixedTop) {
+  position: relative;
+  z-index: 5;
+}
+
+body.contrast .menuBg:not(.fixedTop) .navbarCustom .dropdown-menu {
+  top: 95px;
+}
+
+.menuBg .navbarCustom .navbar-brand.borderWidth img {
+  height: 52px;
+  width: 89px;
+}
+
+.menuBg .navbarCustom .nav-item:nth-of-type(2) .row .col-lg-3:last-of-type h4 {
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#mainForm.col-md-7.search-right {
+  flex: 0 0 auto;
+  width: 74.333333%;
+}
+
+.years-list ul li {
+  height: auto;
+}
+
+.list-with-header .header-with-arrow {
+  margin-top: 32px;
+}
+
+@media (max-width: 1400px) {
+  .Evaluation .alertEvaluation .right strong {
+    font-size: 1rem;
+    padding: 0 15px;
+  }
+  .sort-section .sort-search + .sort-button {
+    width: 23%;
+    padding: 0;
+  }
+  .sort-section .col-md-3:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sort-section .sort-search input {
+    min-width: auto;
+    width: 180px;
+  }
+  .sort-section .sort-search input::placeholder {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .inner .partners-list .partners-card .Dtxt p {
+    font-size: 0.75rem;
+  }
+  .menuBg .navbarCustom .colMenu h4 a {
+    font-size: 16px;
+  }
+  .menuBg .navbarCustom .colMenu ul li a {
+    font-size: 0.875rem;
+  }
+  #mainForm.col-md-7.search-right {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .alertEvaluation .right {
+    display: block;
+  }
+  .inner .partners-list .partners-card .Dtxt .title {
+    height: auto;
+  }
+  .alertInfo .boxAlert > img {
+    margin: 0;
+  }
+}
+
+/* end QC MEWA 26-8-2024 */
 /* ---- AR ----- */
 @media (min-width: 1200px) {
   .menuBg .navbarCustom .nav-item .nav-link {
