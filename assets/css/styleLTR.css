@@ -9808,7 +9808,9 @@ html[dir="ltr"] h2, html[dir="ltr"] h3, html[dir="ltr"] .ms-h2, html[dir="ltr"] 
   background: #166a45;
 }
 
-.patternIcon::after, .menuBg .navbarCustom .colMenu h4::after, .servicesBg .sevBob:hover h3::after, .menuBg .navbarCustom .colMenu h4::after, .servicesBg .sevBob:hover h3::after {
+.patternIcon::after, .menuBg .navbarCustom .colMenu h4::after, .servicesBg .sevBob:hover h3::after,
+.menuBg .navbarCustom .colMenu h4::after,
+.servicesBg .sevBob:hover h3::after {
   border-radius: 15px 0px 0px 15px;
 }
 
@@ -9830,7 +9832,7 @@ html[dir="ltr"] h2, html[dir="ltr"] h3, html[dir="ltr"] .ms-h2, html[dir="ltr"] 
 .DgaCard .Dimg img {
   width: 100%;
   height: 100%;
-  transition: .25s;
+  transition: 0.25s;
   border-radius: 8px;
 }
 
@@ -9986,8 +9988,10 @@ html[dir="ltr"] h2, html[dir="ltr"] h3, html[dir="ltr"] .ms-h2, html[dir="ltr"] 
   display: none;
 }
 
-.mediaCenter .patternCr::after, .mediaCenter .patternCr::before,
-.patternCr::after, .patternCr::before {
+.mediaCenter .patternCr::after,
+.mediaCenter .patternCr::before,
+.patternCr::after,
+.patternCr::before {
   background-image: url(../images/home/cirlceServ.png);
 }
 
@@ -10074,7 +10078,7 @@ html[dir="ltr"] h2, html[dir="ltr"] h3, html[dir="ltr"] .ms-h2, html[dir="ltr"] 
   height: 100%;
   top: 0px;
   min-height: 25px;
-  background-color: #46C752;
+  background-color: #46c752;
   left: -30px;
   border-radius: 15px 0px 0px 15px;
 }
@@ -10162,7 +10166,7 @@ html[dir="ltr"] h2, html[dir="ltr"] h3, html[dir="ltr"] .ms-h2, html[dir="ltr"] 
 }
 
 .homeTenders .mostWatched ol li a {
-  color: #32383D;
+  color: #32383d;
 }
 
 .eventsSection {
@@ -10453,7 +10457,7 @@ html[dir="ltr"] h2, html[dir="ltr"] h3, html[dir="ltr"] .ms-h2, html[dir="ltr"] 
 .footerDGA .FooterLinks .Accessibility li a.click {
   pointer-events: none;
   background-color: #ffffff30;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .footerDGA .FooterLinks .Accessibility li a img {
@@ -10543,7 +10547,7 @@ footer .row:first-of-type {
 }
 
 html body {
-  background: var(--Background-background-white, #FFF);
+  background: var(--Background-background-white, #fff);
 }
 
 .breadcrumbSec {
@@ -10608,7 +10612,7 @@ html body {
 
 .inner .DgaCard {
   margin-bottom: 26px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .inner .DgaCard .Dtxt .title {
@@ -10692,7 +10696,7 @@ html body {
   font-weight: var(--text-md-semibold-font-weight);
   line-height: var(--display-md-bold-line-height);
   letter-spacing: var(--display-md-bold-letter-spacing);
-  color: #0D121C;
+  color: #0d121c;
   margin-bottom: 21px;
 }
 
@@ -10713,7 +10717,7 @@ html body {
   font-weight: var(--display-md-bold-font-weight);
   line-height: var(--display-md-bold-line-height);
   letter-spacing: var(--display-md-bold-letter-spacing);
-  color: #0D121C;
+  color: #0d121c;
 }
 
 .News-slider {
@@ -10827,7 +10831,7 @@ html body {
   border-radius: var(--radius-radius-sm);
   border: 1px solid var(--themes-border-border-neutral-primary);
   height: 40px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .inner .partners-list .partners-card .btns-box .ministry-more span {
@@ -10982,7 +10986,7 @@ html body {
 }
 
 .customTab-two .nav-link::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 3px;
   left: 50%;
@@ -11160,7 +11164,7 @@ html body {
   font-weight: var(--text-md-medium-font-weight);
   line-height: var(--text-md-medium-line-height);
   font-family: inherit;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .list-system-cards.list-sysDGA .system-card .sys-btns .sys-share .share .img-box img {
@@ -11200,7 +11204,7 @@ html body {
   font-weight: var(--text-md-medium-font-weight);
   line-height: var(--text-md-medium-line-height);
   font-family: inherit;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .list-system-cards.list-sysDGA .system-card .sys-btns .download img {
@@ -11286,7 +11290,7 @@ html body {
   font-size: 30px;
   line-height: 38px;
   font-weight: var(--text-md-semibold-font-weight);
-  color: #11634F;
+  color: #11634f;
   margin-bottom: 8x;
 }
 
@@ -11294,7 +11298,7 @@ html body {
   font-size: var(--text-lg-regular-font-size);
   font-weight: var(--text-lg-regular-font-weight);
   line-height: var(--text-lg-regular-line-height);
-  color: #646D75;
+  color: #646d75;
 }
 
 .wakeel .wakeel-card .content-box .contact {
@@ -11305,14 +11309,14 @@ html body {
   font-size: var(--text-lg-regular-font-size);
   font-weight: var(--text-lg-regular-font-weight);
   line-height: var(--text-lg-regular-line-height);
-  color: #646D75;
+  color: #646d75;
 }
 
 .wakeel .wakeel-card .content-box .contact .phone {
   font-size: var(--text-xl-regular-font-size);
   font-weight: 700;
   line-height: var(--text-xl-regular-line-height);
-  color: #11634F;
+  color: #11634f;
 }
 
 .wakeel .wakeel-card .content-box .contact .phone img {
@@ -11321,7 +11325,7 @@ html body {
 
 .tasks {
   background-image: url(../images/mewa-DGA/shared/circlee.svg), url(../images/mewa-DGA/shared/circlee.svg);
-  background-position: top left+140px, bottom right+140px;
+  background-position: top left+ 140px, bottom right+ 140px;
   padding-bottom: 50px;
 }
 
@@ -11356,7 +11360,7 @@ html body {
   font-size: var(--display-xs-semibold-font-size);
   font-weight: var(--text-md-semibold-font-weight);
   line-height: var(--display-xs-semibold-line-height);
-  color: #FFF;
+  color: #fff;
   margin-bottom: 90px;
   background-color: transparent;
   padding: 0;
@@ -11425,7 +11429,7 @@ html body {
   font-size: var(--display-xs-semibold-font-size);
   font-weight: var(--text-md-semibold-font-weight);
   line-height: var(--display-xs-semibold-line-height);
-  color: #0D121C;
+  color: #0d121c;
   margin-bottom: 95px;
 }
 
@@ -11443,7 +11447,7 @@ html body {
   font-size: var(--display-xs-semibold-font-size);
   font-weight: var(--text-md-semibold-font-weight);
   line-height: var(--display-xs-semibold-line-height);
-  color: #0D121C;
+  color: #0d121c;
   margin-bottom: 0;
 }
 
@@ -11474,7 +11478,8 @@ html body {
   .interactive-map .map-bg .svg-map {
     transform: scale(0.35) translate(95%, 0);
   }
-  .list-system-cards .system-card .content-box .sys-btns .sys-share .share img, .list-system-cards .system-card .content-box .sys-btns .download img {
+  .list-system-cards .system-card .content-box .sys-btns .sys-share .share img,
+  .list-system-cards .system-card .content-box .sys-btns .download img {
     width: auto !important;
   }
   .wakeel .wakeel-card {
@@ -11502,7 +11507,7 @@ html body {
 
 #audioControls .voiceTxt h3,
 #audioControls .modal-title {
-  color: #005D45;
+  color: #005d45;
   font-weight: bold;
 }
 
@@ -11526,17 +11531,42 @@ html[dir="ltr"] .customTab-two .nav-link::before {
   transform: translateX(-50%);
 }
 
-/* start QC MEWA 26-8-2024 */
+/* start  26-8-2024 */
+.borderWidth::after {
+  bottom: -1.5px;
+}
+
+.borderWidth:hover::after {
+  width: 75%;
+}
+
+.customTab-two input.nav-link.active {
+  border-bottom: 3px solid var(--themes-border-border-primary);
+  border-radius: 0;
+}
+
+.alert.alert-warning {
+  display: inline-flex !important;
+}
+
+body .content .ms-rtestate-field h2 {
+  padding: 0;
+}
+
+.ms-rtestate-field h2::before {
+  display: none;
+}
+
 .Sections a {
   margin-bottom: 4px;
 }
 
 .ms-rtestate-field div {
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 .inner .partners-list .partners-card .Dtxt .title {
-  height: calc(var(--text-lg-bold-line-height)* 2);
+  height: calc(var(--text-lg-bold-line-height) * 2);
   overflow: hidden;
 }
 
@@ -11544,7 +11574,7 @@ html[dir="ltr"] .customTab-two .nav-link::before {
   margin-bottom: 8px;
 }
 
-.answer_wrap input[type=submit].btn.btn-primary {
+.answer_wrap input[type="submit"].btn.btn-primary {
   height: 39px;
   padding: 0 20px;
   min-width: unset;
@@ -11589,6 +11619,7 @@ html[dir="ltr"] .customTab-two .nav-link::before {
 
 [dir="ltr"] .sort-section .sort-search + .sort-button {
   margin-left: 8px;
+  padding: 0 10px;
 }
 
 body.contrast .menuBg:not(.fixedTop) {
@@ -11625,6 +11656,11 @@ body.contrast .menuBg:not(.fixedTop) .navbarCustom .dropdown-menu {
   margin-top: 32px;
 }
 
+[dir="ltr"] .sort-section select,
+[dir="ltr"] .consultations-tabs .sort-section .col-md-3 .sort-filter select {
+  width: 180px;
+}
+
 @media (max-width: 1400px) {
   .Evaluation .alertEvaluation .right strong {
     font-size: 1rem;
@@ -11645,6 +11681,17 @@ body.contrast .menuBg:not(.fixedTop) .navbarCustom .dropdown-menu {
   }
   .sort-section .sort-search input::placeholder {
     font-size: 0.875rem;
+  }
+  [dir="ltr"] .menuBg .navbarCustom .nav-item .nav-link {
+    font-size: 14px !important;
+  }
+  [dir="ltr"] .sort-section .sort-search + .sort-button {
+    font-size: 14px !important;
+    width: 25%;
+  }
+  [dir="ltr"] .sort-section select,
+  [dir="ltr"] .consultations-tabs .sort-section .col-md-3 .sort-filter select {
+    font-size: 12px;
   }
 }
 
@@ -11676,7 +11723,7 @@ body.contrast .menuBg:not(.fixedTop) .navbarCustom .dropdown-menu {
   }
 }
 
-/* end QC MEWA 26-8-2024 */
+/* end QC 26-8-2024 */
 /* ---- EN ----- */
 @media (min-width: 1200px) {
   .menuBg .navbarCustom .nav-item .nav-link {
@@ -13688,7 +13735,8 @@ body .content .ms-rtestate-field h2 {
     font-size: 14px;
     margin: 0;
   }
-  .list-system-cards .system-card .content-box .sys-btns .sys-share .share img, .list-system-cards .system-card .content-box .sys-btns .download img {
+  .list-system-cards .system-card .content-box .sys-btns .sys-share .share img,
+  .list-system-cards .system-card .content-box .sys-btns .download img {
     width: 30px;
   }
   .list-system-cards .system-card .content-box .sys-btns .sys-share .innderSocial {
