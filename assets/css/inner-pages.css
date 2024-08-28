@@ -8842,8 +8842,7 @@ footer {
 /*
   after dga fix
   by m.mousa
-
-  */
+*/
 
 .social-media-2 .socMed-card .socMed-content h2 {
   padding: 0;
@@ -8960,7 +8959,7 @@ html[dir="ltr"] .menuBg:before {
   content: "Beta Version";
 }
 
-/* ao */
+
 #audioControls .voiceTxt h3,
 #audioControls .modal-title {
     color: #005D45;

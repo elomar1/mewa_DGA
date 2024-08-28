@@ -1,3 +1,4 @@
+
 body {
   font-family: var(--text-lg-regular-font-family);
     background-color: $backgroundf3f6fb;
@@ -2514,7 +2515,7 @@ footer {
       a span {
         font-size: 1rem;;
         font-weight: bold;
-        font-family: 'LinaSans';
+        font-family: var(--text-lg-regular-font-family);
         font-weight: $w-bold;
       }
       strong {

@@ -2658,7 +2658,7 @@ footer .reservedBar ul li a {
 .alertInfo .boxAlert a span {
   font-size: 1rem;
   font-weight: bold;
-  font-family: 'LinaSans';
+  font-family: var(--text-lg-regular-font-family);
   font-weight: 600;
 }
 
@@ -11016,8 +11016,9 @@ html body {
 .content table tbody tr:first-child {
   background-color: var(--table-background-header) !important;
   background: #f1f1f1 !important;
-  /*background: var(--table-background-header) !important;*/
-  border: 1px solid var(--table-cell-border-color);
+  /*background: var(--table-background-header) !important;
+        border: 1px solid var(--table-cell-border-color);
+        */
 }
 
 .content table tbody tr:first-child td, .content table tbody tr:first-child th {
@@ -11032,6 +11033,13 @@ html body {
   text-align: right;
 }
 
+.content table tbody tr:first-child td p, .content table tbody tr:first-child th p {
+  font-size: var(--text-xs-medium-font-size);
+  font-weight: var(--text-xs-medium-font-weight);
+  line-height: var(--text-xs-medium-line-height);
+  color: var(--table-text-head);
+}
+
 .content table tbody tr:nth-child(odd) {
   background-color: var(--primitives-colors-base-white);
 }
@@ -11043,10 +11051,15 @@ html body {
   line-height: var(--text-md-regular-line-height);
   color: var(--table-text-body);
   text-align: right;
+  border: 1px solid var(--table-cell-border-color);
 }
 
-.content table tbody, .content table td, .content table tfoot, .content table th, .content table thead, .content table tr {
-  border: 1px solid var(--table-cell-border-color);
+.content table tbody tr td p {
+  font-size: var(--text-md-regular-font-size);
+  font-weight: var(--text-md-regular-font-weight);
+  line-height: var(--text-md-regular-line-height);
+  color: var(--table-text-body);
+  margin: 0;
 }
 
 .social-media-2 .socMed-card {
@@ -11350,6 +11363,7 @@ html body {
 
 .Administration {
   background-image: url(../images/mewa-DGA/wkala/bg.jpg);
+  background-size: cover;
 }
 
 .Administration::after {
@@ -11417,7 +11431,7 @@ html body {
   height: 40px;
   padding: var(--spacing-global-spacing-none) var(--spacing-button-buttons-lg-padding);
   gap: var(--spacing-button-buttons-lg-gap);
-  border-radius: var(--Radius-radius-sm);
+  border-radius: var(--radius-radius-radius-sm);
   background: var(--themes-button-button-background-primary-default);
   color: var(--themes-text-text-oncolor-primary);
   font-size: var(--text-md-medium-font-size);
@@ -11493,6 +11507,7 @@ html body {
   }
 }
 
+/* */
 .inner .DgaCard .Dtxt .title {
   margin: 0 !important;
 }
@@ -11531,6 +11546,192 @@ html[dir="ltr"] .customTab-two .nav-link::before {
   transform: translateX(-50%);
 }
 
+.borderWidth::after {
+  bottom: 0;
+}
+
+.contrast .menuBg:before {
+  filter: grayscale(100%) brightness(95%) contrast(120%);
+}
+
+.social-media-2 .socMed-card .socMed-content h2 {
+  padding: 0;
+}
+
+.social-media-2 .socMed-card .socMed-content h2:before {
+  display: none;
+}
+
+.social-media-2 .socMed-card .socMed-content p {
+  padding: 0;
+}
+
+.eventsSection .list-system-cards.list-sysDGA .system-card {
+  height: auto;
+}
+
+.eventsSection .list-system-cards.list-sysDGA .system-card img {
+  width: auto;
+  display: inline;
+  vertical-align: middle;
+}
+
+.eventsSection .list-system-cards.list-sysDGA .system-card .img-box img {
+  width: 35px;
+}
+
+.sort-button {
+  background-color: var(--themes-background-background-primary) !important;
+  font-weight: var(--text-md-medium-font-weight) !important;
+}
+
+html[dir="ltr"] .breadcrumb span:not(:last-of-type)::before {
+  right: 13px;
+  left: auto;
+  transform: scaleX(-1);
+}
+
+html[dir="ltr"] .menuBg .navbarCustom > .navbar-brand {
+  width: auto;
+}
+
+html[dir="ltr"] .menuBg:before {
+  font-family: 'IBMPlex Sans';
+  font-weight: 400;
+  right: auto;
+  top: 35px;
+  left: -32px;
+  transform: rotate(90deg);
+  content: "Beta Version";
+}
+
+html[dir="ltr"] .sort-section .sort-search input {
+  background-position-x: 95%;
+}
+
+html[dir="ltr"] .sort-section select {
+  background-position-x: 95%;
+}
+
+html[dir="ltr"] .sort-section .col-md-3 label {
+  flex: 0 0 80px;
+}
+
+html[dir="ltr"] .sort-section label img {
+  margin-right: 3px;
+}
+
+html[dir="ltr"] .customAccordion .accordion-item .accordion-button {
+  direction: ltr;
+}
+
+html[dir="ltr"] .MainHeader .boxHeader > img:last-of-type {
+  transform: scaleX(-1);
+}
+
+html[dir="ltr"] .tabsCustom .nav-item:first-of-type button {
+  border-radius: 8px 0 0 8px;
+}
+
+html[dir="ltr"] .tabsCustom .nav-item:last-of-type button {
+  border-radius: 0 8px 8px 0;
+}
+
+html[dir="ltr"] .mediaCenter .homeGallaryWrapper .boxHG > a .boxImg::before {
+  transform: translate(50%, -50%);
+}
+
+html[dir="ltr"] .borderWidth::after {
+  transform: translateX(50%);
+}
+
+html[dir="ltr"] .breadcrumbSec .patternIcon, html[dir="ltr"] .breadcrumbSec .menuBg .navbarCustom .colMenu h4, .menuBg .navbarCustom .colMenu html[dir="ltr"] .breadcrumbSec h4, html[dir="ltr"] .breadcrumbSec .servicesBg .sevBob:hover h3, .servicesBg .sevBob:hover html[dir="ltr"] .breadcrumbSec h3,
+html[dir="ltr"] .breadcrumbSec .menuBg .navbarCustom .colMenu h4,
+html[dir="ltr"] .menuBg .navbarCustom .colMenu .breadcrumbSec h4,
+html[dir="ltr"] .breadcrumbSec .servicesBg .sevBob:hover h3,
+html[dir="ltr"] .servicesBg .sevBob:hover .breadcrumbSec h3 {
+  transform: translate(30px);
+}
+
+html[dir="ltr"] .HappensNowPuple .asbo, .HappensNowPuple span {
+  right: auto;
+  left: 50%;
+  font-size: 14px;
+}
+
+html[dir="ltr"] .alert.alert-warning,
+html[dir="ltr"] .alert-info {
+  text-align: start;
+}
+
+html[dir="ltr"] .alert-warning:before,
+html[dir="ltr"] .alert-info:before {
+  right: auto;
+  left: 25px;
+}
+
+html[dir="ltr"] .btnArrow img,
+html[dir="ltr"] .owl-carousel .owl-nav button.owl-next,
+html[dir="ltr"] .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  transform: scaleX(-1);
+}
+
+#audioControls .voiceTxt h3,
+#audioControls .modal-title {
+  color: #005D45;
+  font-weight: bold;
+}
+
+.voiceTxt h3 {
+  margin-bottom: 20px;
+}
+
+[dir="rtl"] .voiceTxt ul.list li {
+  text-align: right !important;
+}
+
+[dir="rtl"] .servicesBg .sevBob h3 {
+  text-align: right;
+  margin: unset;
+}
+
+[dir="ltr"] .voiceTxt ul.list li {
+  text-align: left !important;
+}
+
+[dir="ltr"] .HappensNowPuple span {
+  font-size: .8rem;
+  width: 50%;
+  text-align: center;
+}
+
+[dir="ltr"] .social-media-2 .socMed-card .socMed-content p {
+  padding-left: 0;
+}
+
+[dir="ltr"] .list-system-cards.list-sysDGA .system-card .content-box h4 {
+  height: calc(var(--text-lg-bold-line-height) * 2);
+}
+
+[dir="ltr"] .servicesBg .sevBob h3 {
+  text-align: left;
+  margin: unset;
+}
+
+#AsynchronousViewDefault_CalendarView table tbody {
+  border: unset;
+}
+
+.initiatives--brief p, .initiatives--brief div {
+  line-height: 1.8;
+}
+
+.footerDGA .btm-footer .footer-last .dir-links-2,
+.footerDGA .btm-footer .footer-last .dir-links {
+  list-style: none !important;
+  padding: 0;
+}
+
 /* start  26-8-2024 */
 .borderWidth::after {
   bottom: -1.5px;
@@ -11561,6 +11762,7 @@ body .content .ms-rtestate-field h2 {
   margin-bottom: 4px;
 }
 
+.ms-rtestate-field,
 .ms-rtestate-field div {
   line-height: 1.8;
 }
@@ -11661,7 +11863,52 @@ body.contrast .menuBg:not(.fixedTop) .navbarCustom .dropdown-menu {
   width: 180px;
 }
 
+.mediaCenter .homeGallaryWrapper .boxHG {
+  margin: 0 14px !important;
+}
+
+a#WPQ1_nav_prev_a, a#WPQ1_nav_next_a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-5px);
+}
+
+a#WPQ1_nav_next_a:before,
+a#WPQ1_nav_prev_a:before {
+  margin: 0 !important;
+}
+
+.tasks ul li::before {
+  border-color: var(--border-success);
+  color: var(--themes-text-text-primary);
+}
+
+.form-filteration .row {
+  align-items: center;
+}
+
+.form-filteration .form-group {
+  margin-bottom: 0;
+}
+
+.form-filteration .row > div {
+  margin-bottom: 20px;
+}
+
+.form-filteration .form-group {
+  margin: 0;
+}
+
+.form-filteration .form-group label {
+  line-height: 1.8;
+}
+
 @media (max-width: 1400px) {
+  .menuBg .navbarCustom .nav-item:nth-of-type(3) .row .col-lg-3,
+  .menuBg .navbarCustom .nav-item:nth-of-type(5) .row .col-lg-3 {
+    width: auto;
+  }
   .Evaluation .alertEvaluation .right strong {
     font-size: 1rem;
     padding: 0 15px;
