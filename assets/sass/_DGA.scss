@@ -2113,6 +2113,201 @@ html[dir="ltr"] .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl
 	padding: 0;
 }
 
+@media(max-width:767px) {
+  body .newLastChart .chartAgency {
+    height: auto;
+  }
+}
+.main-head-WZ-icon {
+	img {
+		display: none;
+	}
+}
+
+body {
+
+	.orChartNew {
+		&.newLastChart {
+			.level3 {
+				.AgencyCard {
+					&.borderBottom {
+						&:nth-of-type(2) {
+							.borderBOT {
+								margin-#{$end-direction}: 39px  !important;
+							}
+						}
+					}
+				}
+			}
+		}
+		.level1 {
+			.AgencyCard {
+				padding: 10px 15px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+		}
+		&:not(.newLastChart) {
+			.level3 {
+				.AgencyCard {
+					&.borderBottom {
+						&:nth-of-type(2) {
+							.borderBOT {
+								margin-#{$end-direction}: -13px;
+								top: 107px;
+							}
+						}
+					}
+				}
+			}
+		}
+		.level3 {
+			.AgencyCard {
+				background-color: #9DA4AE !important;
+				border-color: #9DA4AE !important;
+			}
+		}
+	}
+	.newLastChart {
+		.level2 {
+			&::after {
+				width: 58.2%;
+			}
+			.adminHeadCard {
+				&:first-of-type {
+					margin-#{$end-direction}: 480px;
+				}
+			}
+		}
+		.chartAgency {
+			height: 940px;
+			.level3 {
+				width: 70%;
+				margin: 0 auto !important;
+			}
+			.level4 {
+				width: 90%;
+				margin: 0 auto !important;
+			}
+		}
+		.level4 {
+			.borderTop {
+				&.dirctLine {
+					&::after {
+						top: -248px;
+						height: 248px;
+					}
+				}
+			}
+		}
+		.level3 {
+			justify-content: space-between;
+			.borderBottom {
+				&::before {
+					top: 73px;
+					height: 107px;
+				}
+			}
+			.borderBOT {
+				top: 185px;
+				width: 270px;
+				top: 176px;
+				#{$end-direction}: 81px;
+			}
+			.AgencyCard {
+				&:first-of-type {
+					transform: translate(14px, 0px);
+				}
+				&:last-of-type {
+					transform: translate(-23px, 0px);
+				}
+			}
+		}
+	}
+	.level2 {
+		.adminHeadCard {
+			color: #fff !important;
+			border: 3px solid #54C08A !important;
+			background-color: #54C08A !important;
+		}
+	}
+}
+body .or-chart-col4ToUP .wekala-chart .level-one .toUp {
+  background-color: #54C08A  !important;
+    border: 2px solid #54C08A  !important;
+    color: #fff  !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newLastChart {
+	.levelBetw34 {
+		display: flex;
+		justify-content: space-between;
+		.right {
+			transform: translate(-14px, -51px);
+		}
+		.left {
+			transform: translate(332px, -51px);
+		}
+		.adminHeadCard {
+			position: relative;
+			&::after {
+				background: #AEBDCB;
+				position: absolute;
+				content: "";
+				height: 2px;
+				width: 29px;
+				#{$end-direction}: -31px;
+			}
+		}
+	}
+}
+body .newLastChart .level4 > div:last-of-type::after,
+  body .newLastChart .level4 > div:first-of-type::after {
+	top: -36px;
+	height: 36px;
+}
+.wekala-chart {
+	.level-one {
+		&::after {
+			background-color: var(--themes-button-button-background-primary-default);
+		}
+	}
+}
+.or-chart.or-chart-col7 > .container > .wekala-chart > .main-sec,
+.or-chart.or-chart-col3TwoLevel > .container > .wekala-chart > .main-sec,
+.or-chart.or-chart-col5 > .container > .wekala-chart > .main-sec,
+.or-chart.or-chart-col4ToUP > .container > .wekala-chart > .main-sec,
+.or-chart.or-chart-normal > .container > .wekala-chart > .main-sec,
+body .orChartNew .level1 .AgencyCard,
+body .or-chart-col4L1 .wekala-chart .vice, body .or-chart-col3 .wekala-chart .vice {
+	background-color: var(--themes-button-button-background-primary-default) !important;
+	border: 2px solid  var(--themes-button-button-background-primary-default) !important;
+	justify-content: center;
+	align-items: center;
+}
+body .or-chart-col3TwoLevel .wekala-chart .level-one-head .one,
+.wekala-chart .main-sec {
+	background-color: #54C08A  !important;
+	border: 2px solid #54C08A  !important;
+	color: #fff  !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.newLastChart .levelBetw34 .adminHeadCard ,
+body .orChartNew .level4 .adminHeadCard {
+	background-color: #D2D6DB !important;
+	border-color: #D2D6DB !important;
+	color: #000000  !important;
+}
+body .orChartNew .level4 .adminCard,
+.wekala-chart .level-one div {
+	border: 2px solid #1B8354;
+	color: #384250;
+}
 
 /* start  26-8-2024 */
 
@@ -2126,12 +2321,11 @@ html[dir="ltr"] .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl
   border-bottom: 3px solid var(--themes-border-border-primary);
   border-radius: 0;
 }
-
+.alert.alert-info,
 .alert.alert-warning {
   display: inline-flex !important;
 }
-.customTab-two {
-}
+
 body .content .ms-rtestate-field h2 {
   padding: 0;
 }
@@ -2254,6 +2448,8 @@ a#WPQ1_nav_prev_a:before {
 .form-filteration .form-group label {
   line-height: 1.8;
 }
+
+
 @media (max-width: 1400px) {
 
   .menuBg .navbarCustom .nav-item:nth-of-type(3) .row .col-lg-3,
@@ -2309,6 +2505,13 @@ a#WPQ1_nav_prev_a:before {
   }
 }
 @media (max-width: 767px) {
+  .interactive-map .map-bg .navigation-links a {
+    height: auto;
+    margin-bottom: 0;
+  }
+  .servicesBg .sevBob {
+    height: auto;
+  }
   .alertEvaluation .right {
     display: block;
   }
