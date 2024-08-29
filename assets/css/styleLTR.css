@@ -12004,8 +12004,13 @@ body.contrast .menuBg:not(.fixedTop) .navbarCustom .dropdown-menu {
 }
 
 .menuBg .navbarCustom .navbar-brand.borderWidth img {
+  /*
   height: 52px;
   width: 89px;
+  */
+  max-width: unset;
+  height: 70px;
+  width: 120px;
 }
 
 .menuBg .navbarCustom .nav-item:nth-of-type(2) .row .col-lg-3:last-of-type h4 {
@@ -12074,7 +12079,33 @@ a#WPQ1_nav_prev_a:before {
   line-height: 1.8;
 }
 
+.lastUpdate {
+  background: #EAEFF6;
+  padding: 32px 0;
+}
+
+.lastUpdate .lastUpdate {
+  padding: 0;
+  display: flex;
+}
+
+.lastUpdate .lastUpdate p {
+  font-size: 1rem;
+  color: #0d121c;
+  margin: 0 10px;
+}
+
+.Evaluation.EvlHome {
+  margin-top: 0;
+  padding: 32px 0 0;
+}
+
 @media (max-width: 1400px) {
+  .menuBg .navbarCustom .navbar-brand.borderWidth img {
+    height: 52px;
+    width: 89px;
+    max-width: unset;
+  }
   .menuBg .navbarCustom .nav-item:nth-of-type(3) .row .col-lg-3,
   .menuBg .navbarCustom .nav-item:nth-of-type(5) .row .col-lg-3 {
     width: auto;
