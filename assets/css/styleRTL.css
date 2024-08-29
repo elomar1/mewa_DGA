@@ -9934,7 +9934,7 @@ html[dir="ltr"] h2, html[dir="ltr"] h3, html[dir="ltr"] .ms-h2, html[dir="ltr"] 
 .servicesBg .sevBob {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: var(--spacing-card-card-lg-gap);
   padding: var(--spacing-global-spacing-xl);
   background-color: var(--themes-background-background-card);
@@ -9959,7 +9959,6 @@ html[dir="ltr"] h2, html[dir="ltr"] h3, html[dir="ltr"] .ms-h2, html[dir="ltr"] 
 
 .servicesBg .sevBob:hover {
   padding: var(--spacing-global-spacing-xl);
-  height: auto;
   background-color: var(--themes-background-background-primary);
   border: unset;
 }
@@ -11902,6 +11901,36 @@ body .orChartNew .level4 .adminCard,
 }
 
 /* start  26-8-2024 */
+.servicesBg .sevBob {
+  height: 100%;
+}
+
+.servicesBg .sevBob .links {
+  width: 100%;
+}
+
+.servicesBg .sevBob .links .linksUlCard {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+  margin-bottom: 6px;
+}
+
+.servicesBg .sevBob .links .linksUlCard a {
+  font-size: 18px;
+  color: #1F2A37;
+  margin-bottom: 18px;
+  display: inline-block;
+}
+
+.servicesBg .sevBob:hover .linksUlCard a {
+  color: #fff;
+}
+
+.servicesBg .sevBob:hover .btnArrow {
+  background: #166a45;
+}
+
 .borderWidth::after {
   bottom: -1.5px;
 }

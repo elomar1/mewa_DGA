@@ -195,7 +195,7 @@
   .sevBob {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: var(--spacing-card-card-lg-gap);
     padding: var(--spacing-global-spacing-xl);
     background-color: var(--themes-background-background-card);
@@ -216,7 +216,6 @@
     }
     &:hover {
       padding: var(--spacing-global-spacing-xl);
-      height: auto;
       background-color: var(--themes-background-background-primary);
       border: unset;
       h3 {
@@ -2310,6 +2309,36 @@ body .orChartNew .level4 .adminCard,
 }
 
 /* start  26-8-2024 */
+.servicesBg {
+	.sevBob {
+    height: 100%;
+		.links {
+			width: 100%;
+			.linksUlCard {
+				list-style: none;
+				padding: 0;
+				text-align: $start-direction;
+				margin-bottom: 6px;
+				a {
+					font-size: 18px;
+					color: #1F2A37;
+					margin-bottom: 18px;
+					display: inline-block;
+				}
+			}
+		}
+		&:hover {
+			.linksUlCard {
+				a {
+					color: #fff;
+				}
+			}
+			.btnArrow {
+				background: #166a45;
+			}
+		}
+	}
+}
 
 .borderWidth::after {
   bottom: -1.5px;
