@@ -1275,11 +1275,11 @@ footer {
         padding: 17px 33px;
         background: $darkGreen;
         > img {
-          filter: brightness(0) invert(1);
+          // filter: brightness(0) invert(1);
         }
         h3 {
-          font-size: 1.25rem;
-          color: #fff;
+          // font-size: 1.25rem;
+          // color: #fff;
           margin-top: 2px;
           transition: 0.25s;
           @extend .patternIcon;

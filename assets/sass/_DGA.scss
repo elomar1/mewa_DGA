@@ -195,7 +195,7 @@
   .sevBob {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: var(--spacing-card-card-lg-gap);
     padding: var(--spacing-global-spacing-xl);
     background-color: var(--themes-background-background-card);
@@ -216,8 +216,8 @@
     }
     &:hover {
       padding: var(--spacing-global-spacing-xl);
-      background-color: var(--themes-background-background-primary);
-      border: unset;
+      background-color:#F9FAFB;
+      border: 1px solid  #F9FAFB;
       h3 {
         font-size: var(--text-lg-bold-font-size);
       }
@@ -2324,26 +2324,58 @@ body .orChartNew .level4 .adminCard,
 				text-align: $start-direction;
 				margin-bottom: 6px;
 				a {
+          position: relative;
 					font-size: 18px;
 					color: #1F2A37;
 					margin-bottom: 18px;
+          line-height: 1.4;
 					display: inline-block;
+          width: 100%;
+          padding: 0;
+          overflow: hidden;
+          text-decoration: none;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          transition: .25s;
+          &::after {
+            position: absolute;
+            visibility: hidden;
+            content: "";
+            #{$start-direction}: 0;
+            top: 8px;
+            width: 18px;
+            transform: translateX(23px);
+            transition: .15s;
+            height: 12px;
+            background: transparent url(../images/home/serviceIcon.svg) no-repeat;
+          }
+          &:hover {
+            padding-#{$start-direction}: 27px;
+            color: #1b8354;
+            &::after {
+              transform: translateX(0);
+              visibility: visible;
+            }
+          }
 				}
 			}
 		}
 		&:hover {
+      border-color: var(--themes-border-border-neutral-secondary);
 			.linksUlCard {
 				a {
-					color: #fff;
+					// color: #fff;
 				}
 			}
 			.btnArrow {
-				background: #166a45;
+				// background: #166a45;
 			}
 		}
 	}
 }
-
+.servicesBg .sevBob .links .text-left  {
+  text-align: $start-direction !important;
+}
 .borderWidth::after {
   bottom: -1.5px;
 }
@@ -2509,6 +2541,17 @@ a#WPQ1_nav_prev_a:before {
 [dir="ltr"] .interactive-map .map-bg .svg-map {
   transform: scale(0.35) translate(-89%, 0) !important;
 }
+[dir="ltr"] {
+  .servicesBg .sevBob .links .linksUlCard a::after {
+    transform: translateX(-32px) rotate(180deg);
+  }
+}
+.footerDGA {
+  .lastUpdate {
+    background: transparent !important;
+    padding: 0 20px !important;
+  }
+}
 @media (max-width: 1400px) {
   .menuBg .navbarCustom .navbar-brand.borderWidth img {
     height: 52px;
@@ -2569,6 +2612,18 @@ a#WPQ1_nav_prev_a:before {
   }
 }
 @media (max-width: 767px) {
+  footer .row .mobile-Apps ul li a {
+    width: 92px;
+  }
+  .footerDGA .btm-footer {
+    margin-top: 18px;
+}
+  .footerDGA .lastUpdate {
+    padding: 0 10px !important;
+  }
+  .footerDGA .btm-footer .footer-last .dir-links {
+    flex-wrap: wrap;
+  }
   .lastUpdate {
     padding: 18px 0;
 }

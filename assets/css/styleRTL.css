@@ -1449,13 +1449,7 @@ footer .reservedBar ul li a {
   background: #005D45;
 }
 
-.servicesBg .sevBob:hover > img {
-  filter: brightness(0) invert(1);
-}
-
 .servicesBg .sevBob:hover h3 {
-  font-size: 1.25rem;
-  color: #fff;
   margin-top: 2px;
   transition: 0.25s;
 }
@@ -9933,7 +9927,7 @@ html[dir="ltr"] h2, html[dir="ltr"] h3, html[dir="ltr"] .ms-h2, html[dir="ltr"] 
 .servicesBg .sevBob {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--spacing-card-card-lg-gap);
   padding: var(--spacing-global-spacing-xl);
   background-color: var(--themes-background-background-card);
@@ -9958,8 +9952,8 @@ html[dir="ltr"] h2, html[dir="ltr"] h3, html[dir="ltr"] .ms-h2, html[dir="ltr"] 
 
 .servicesBg .sevBob:hover {
   padding: var(--spacing-global-spacing-xl);
-  background-color: var(--themes-background-background-primary);
-  border: unset;
+  background-color: #F9FAFB;
+  border: 1px solid  #F9FAFB;
 }
 
 .servicesBg .sevBob:hover h3 {
@@ -11919,18 +11913,50 @@ body .orChartNew .level4 .adminCard,
 }
 
 .servicesBg .sevBob .links .linksUlCard a {
+  position: relative;
   font-size: 18px;
   color: #1F2A37;
   margin-bottom: 18px;
+  line-height: 1.4;
   display: inline-block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: .25s;
 }
 
-.servicesBg .sevBob:hover .linksUlCard a {
-  color: #fff;
+.servicesBg .sevBob .links .linksUlCard a::after {
+  position: absolute;
+  visibility: hidden;
+  content: "";
+  right: 0;
+  top: 8px;
+  width: 18px;
+  transform: translateX(23px);
+  transition: .15s;
+  height: 12px;
+  background: transparent url(../images/home/serviceIcon.svg) no-repeat;
 }
 
-.servicesBg .sevBob:hover .btnArrow {
-  background: #166a45;
+.servicesBg .sevBob .links .linksUlCard a:hover {
+  padding-right: 27px;
+  color: #1b8354;
+}
+
+.servicesBg .sevBob .links .linksUlCard a:hover::after {
+  transform: translateX(0);
+  visibility: visible;
+}
+
+.servicesBg .sevBob:hover {
+  border-color: var(--themes-border-border-neutral-secondary);
+}
+
+.servicesBg .sevBob .links .text-left {
+  text-align: right !important;
 }
 
 .borderWidth::after {
@@ -12139,6 +12165,15 @@ a#WPQ1_nav_prev_a:before {
   transform: scale(0.35) translate(-89%, 0) !important;
 }
 
+[dir="ltr"] .servicesBg .sevBob .links .linksUlCard a::after {
+  transform: translateX(-32px) rotate(180deg);
+}
+
+.footerDGA .lastUpdate {
+  background: transparent !important;
+  padding: 0 20px !important;
+}
+
 @media (max-width: 1400px) {
   .menuBg .navbarCustom .navbar-brand.borderWidth img {
     height: 52px;
@@ -12199,6 +12234,18 @@ a#WPQ1_nav_prev_a:before {
 }
 
 @media (max-width: 767px) {
+  footer .row .mobile-Apps ul li a {
+    width: 92px;
+  }
+  .footerDGA .btm-footer {
+    margin-top: 18px;
+  }
+  .footerDGA .lastUpdate {
+    padding: 0 10px !important;
+  }
+  .footerDGA .btm-footer .footer-last .dir-links {
+    flex-wrap: wrap;
+  }
   .lastUpdate {
     padding: 18px 0;
   }
