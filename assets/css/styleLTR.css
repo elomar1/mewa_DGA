@@ -12182,6 +12182,11 @@ a#WPQ1_nav_prev_a:before {
   padding: 0 20px !important;
 }
 
+.newLastFotter {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 1400px) {
   .menuBg .navbarCustom .navbar-brand.borderWidth img {
     height: 52px;
