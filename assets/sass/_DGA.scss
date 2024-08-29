@@ -2503,6 +2503,12 @@ a#WPQ1_nav_prev_a:before {
   margin-top: 0;
   padding: 32px 0 0;
 }
+.servicesBg .sevBob {
+  justify-content: space-evenly;
+}
+[dir="ltr"] .interactive-map .map-bg .svg-map {
+  transform: scale(0.35) translate(-89%, 0);
+}
 @media (max-width: 1400px) {
   .menuBg .navbarCustom .navbar-brand.borderWidth img {
     height: 52px;
