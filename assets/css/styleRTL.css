@@ -12136,7 +12136,7 @@ a#WPQ1_nav_prev_a:before {
 }
 
 [dir="ltr"] .interactive-map .map-bg .svg-map {
-  transform: scale(0.35) translate(-89%, 0);
+  transform: scale(0.35) translate(-89%, 0) !important;
 }
 
 @media (max-width: 1400px) {
