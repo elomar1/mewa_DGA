@@ -12191,6 +12191,12 @@ a#WPQ1_nav_prev_a:before {
 }
 
 @media (max-width: 767px) {
+  .lastUpdate {
+    padding: 18px 0;
+  }
+  .lastUpdate .lastUpdate p {
+    font-size: .8em;
+  }
   .servicesBg .sevBob {
     height: auto;
   }
