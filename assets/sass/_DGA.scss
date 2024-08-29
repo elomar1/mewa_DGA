@@ -1776,6 +1776,10 @@ html body {
 */
 
 @media (max-width: 992px) {
+
+  .servicesBg .sevBob {
+    margin-bottom: 0;
+  }
   .menuBg .navbarCustom .dropdown-menu {
     padding-top: 1px;
   }
@@ -2559,13 +2563,23 @@ a#WPQ1_nav_prev_a:before {
   }
 }
 @media (max-width: 767px) {
+  .servicesBg .sevBob {
+    height: auto;
+}
+  .servicesBg .sevBob .links .btnArrow  {
+    border-radius: var(--radius-radius-radius-sm);
+    padding: 5px 11px;
+    min-height: 35px;
+  }
+  .servicesBg .sevBob .links .linksUlCard a {
+    font-size: 14px ;
+    margin-bottom: 8px;
+  }
   .interactive-map .map-bg .navigation-links a {
     height: auto;
     margin-bottom: 0;
   }
-  .servicesBg .sevBob {
-    height: auto;
-  }
+
   .alertEvaluation .right {
     display: block;
   }
