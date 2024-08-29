@@ -9771,7 +9771,7 @@ html[dir="ltr"] h2, html[dir="ltr"] h3, html[dir="ltr"] .ms-h2, html[dir="ltr"] 
 }
 
 .btnArrow {
-  border-radius: var(--radius-radius-radius-sm);
+  border-radius: var(--radius-radius-radius-sm) !important;
   padding: 7px 16px;
   min-height: 40px;
   display: inline-flex;
@@ -11467,6 +11467,9 @@ html body {
 	media
 */
 @media (max-width: 992px) {
+  .servicesBg .col-md-6 {
+    margin-bottom: 24px;
+  }
   .servicesBg .sevBob {
     margin-bottom: 0;
   }
@@ -12161,12 +12164,17 @@ a#WPQ1_nav_prev_a:before {
   justify-content: space-evenly;
 }
 
-[dir="ltr"] .interactive-map .map-bg .svg-map {
-  transform: scale(0.35) translate(-89%, 0) !important;
+[dir="ltr"] .servicesBg .sevBob .links .linksUlCard a::after {
+  height: 15px;
+  top: 4px;
 }
 
 [dir="ltr"] .servicesBg .sevBob .links .linksUlCard a::after {
   transform: translateX(-32px) rotate(180deg);
+}
+
+[dir="ltr"] .servicesBg .sevBob .links .linksUlCard a:hover::after {
+  transform: translateX(0) rotate(180deg);
 }
 
 .footerDGA .lastUpdate {
@@ -12234,6 +12242,15 @@ a#WPQ1_nav_prev_a:before {
 }
 
 @media (max-width: 767px) {
+  [dir="ltr"] .interactive-map .map-bg .svg-map {
+    transform: scale(0.35) translate(-89%, 0) !important;
+  }
+  .eventsSection .tabsCustom {
+    justify-content: center !important;
+  }
+  .tabsCustom .nav-item .nav-link {
+    margin-left: 0px !important;
+  }
   footer .row .mobile-Apps ul li a {
     width: 92px;
   }
@@ -12251,6 +12268,9 @@ a#WPQ1_nav_prev_a:before {
   }
   .lastUpdate .lastUpdate p {
     font-size: .8em;
+  }
+  .servicesBg .col-md-6 {
+    margin-bottom: 0;
   }
   .servicesBg .sevBob {
     height: auto;
